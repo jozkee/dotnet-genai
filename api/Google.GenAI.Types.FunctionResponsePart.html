@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Class FunctionResponsePart | Google GenAI .NET SDK ">
       
-      <meta name="description" content="A datatype containing media that is part of a FunctionResponse message.  A FunctionResponsePart consists of data which has an associated datatype. A FunctionResponsePart can only contain one of the accepted types in FunctionResponsePart.data.  A FunctionResponsePart must have a fixed IANA MIME type identifying the type and subtype of the media if the inline_data field is filled with raw bytes.">
+      <meta name="description" content="A datatype containing media that is part of a FunctionResponse message. A FunctionResponsePart consists of data which has an associated datatype. A FunctionResponsePart can only contain one of the accepted types in FunctionResponsePart.data. A FunctionResponsePart must have a fixed IANA MIME type identifying the type and subtype of the media if the inline_data field is filled with raw bytes.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -16,7 +16,7 @@
       
       
       
-      <meta name="docfx:docurl" content="https://github.com/googleapis/dotnet-genai/new/main/apiSpec/new?filename=Google_GenAI_Types_FunctionResponsePart.md&amp;value=---%0Auid%3A%20Google.GenAI.Types.FunctionResponsePart%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/jozkee/dotnet-genai/new/main/apiSpec/new?filename=Google_GenAI_Types_FunctionResponsePart.md&amp;value=---%0Auid%3A%20Google.GenAI.Types.FunctionResponsePart%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -85,7 +85,7 @@
 
 
   <h1 id="Google_GenAI_Types_FunctionResponsePart" data-uid="Google.GenAI.Types.FunctionResponsePart" class="text-break">
-Class FunctionResponsePart  <a class="header-action link-secondary" title="View source" href="https://github.com/googleapis/dotnet-genai/blob/main/Google.GenAI/types/FunctionResponsePart.cs/#L34"><i class="bi bi-code-slash"></i></a>
+Class FunctionResponsePart  <a class="header-action link-secondary" title="View source" href="https://github.com/jozkee/dotnet-genai/blob/main/Google.GenAI/types/FunctionResponsePart.cs/#L34"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -93,10 +93,10 @@ Class FunctionResponsePart  <a class="header-action link-secondary" title="View 
   <dl><dt>Assembly</dt><dd>Google.GenAI.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>A datatype containing media that is part of a <code>FunctionResponse</code> message.  A
+  <div class="markdown summary"><p>A datatype containing media that is part of a <code>FunctionResponse</code> message. A
 <code>FunctionResponsePart</code> consists of data which has an associated datatype. A
 <code>FunctionResponsePart</code> can only contain one of the accepted types in
-<code>FunctionResponsePart.data</code>.  A <code>FunctionResponsePart</code> must have a fixed IANA MIME type
+<code>FunctionResponsePart.data</code>. A <code>FunctionResponsePart</code> must have a fixed IANA MIME type
 identifying the type and subtype of the media if the <code>inline_data</code> field is filled with raw
 bytes.</p>
 </div>
@@ -164,10 +164,10 @@ bytes.</p>
 
   <h3 id="Google_GenAI_Types_FunctionResponsePart_FileData" data-uid="Google.GenAI.Types.FunctionResponsePart.FileData">
   FileData
-  <a class="header-action link-secondary" title="View source" href="https://github.com/googleapis/dotnet-genai/blob/main/Google.GenAI/types/FunctionResponsePart.cs/#L45"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/jozkee/dotnet-genai/blob/main/Google.GenAI/types/FunctionResponsePart.cs/#L45"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Optional. URI based data.</p>
+  <div class="markdown level1 summary"><p>URI based data. This field is not supported in Gemini API.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -198,10 +198,10 @@ public FunctionResponseFileData? FileData { get; set; }</code></pre>
 
   <h3 id="Google_GenAI_Types_FunctionResponsePart_InlineData" data-uid="Google.GenAI.Types.FunctionResponsePart.InlineData">
   InlineData
-  <a class="header-action link-secondary" title="View source" href="https://github.com/googleapis/dotnet-genai/blob/main/Google.GenAI/types/FunctionResponsePart.cs/#L38"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/jozkee/dotnet-genai/blob/main/Google.GenAI/types/FunctionResponsePart.cs/#L38"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Optional. Inline media bytes.</p>
+  <div class="markdown level1 summary"><p>Inline media bytes.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -236,7 +236,7 @@ public FunctionResponseBlob? InlineData { get; set; }</code></pre>
 
   <h3 id="Google_GenAI_Types_FunctionResponsePart_FromJson_System_String_System_Text_Json_JsonSerializerOptions_" data-uid="Google.GenAI.Types.FunctionResponsePart.FromJson(System.String,System.Text.Json.JsonSerializerOptions)">
   FromJson(string, JsonSerializerOptions?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/googleapis/dotnet-genai/blob/main/Google.GenAI/types/FunctionResponsePart.cs/#L59"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/jozkee/dotnet-genai/blob/main/Google.GenAI/types/FunctionResponsePart.cs/#L59"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Deserializes a JSON string to a FunctionResponsePart object.</p>
@@ -279,7 +279,7 @@ fails.</p>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/googleapis/dotnet-genai/blob/main/Google.GenAI/types/FunctionResponsePart.cs/#L34" class="edit-link">Edit this page</a>
+          <a href="https://github.com/jozkee/dotnet-genai/blob/main/Google.GenAI/types/FunctionResponsePart.cs/#L34" class="edit-link">Edit this page</a>
         </div>
 
 

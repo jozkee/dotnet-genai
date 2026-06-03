@@ -16,7 +16,7 @@
       
       
       
-      <meta name="docfx:docurl" content="https://github.com/googleapis/dotnet-genai/new/main/apiSpec/new?filename=Google_GenAI_Types_FunctionDeclaration.md&amp;value=---%0Auid%3A%20Google.GenAI.Types.FunctionDeclaration%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/jozkee/dotnet-genai/new/main/apiSpec/new?filename=Google_GenAI_Types_FunctionDeclaration.md&amp;value=---%0Auid%3A%20Google.GenAI.Types.FunctionDeclaration%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -85,7 +85,7 @@
 
 
   <h1 id="Google_GenAI_Types_FunctionDeclaration" data-uid="Google.GenAI.Types.FunctionDeclaration" class="text-break">
-Class FunctionDeclaration  <a class="header-action link-secondary" title="View source" href="https://github.com/googleapis/dotnet-genai/blob/main/Google.GenAI/types/FunctionDeclaration.cs/#L33"><i class="bi bi-code-slash"></i></a>
+Class FunctionDeclaration  <a class="header-action link-secondary" title="View source" href="https://github.com/jozkee/dotnet-genai/blob/main/Google.GenAI/types/FunctionDeclaration.cs/#L33"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -163,11 +163,12 @@ the client.</p>
 
   <h3 id="Google_GenAI_Types_FunctionDeclaration_Behavior" data-uid="Google.GenAI.Types.FunctionDeclaration.Behavior">
   Behavior
-  <a class="header-action link-secondary" title="View source" href="https://github.com/googleapis/dotnet-genai/blob/main/Google.GenAI/types/FunctionDeclaration.cs/#L111"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/jozkee/dotnet-genai/blob/main/Google.GenAI/types/FunctionDeclaration.cs/#L112"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Optional. Specifies the function Behavior. Currently only supported by the
-BidiGenerateContent method. This field is not supported in Vertex AI.</p>
+  <div class="markdown level1 summary"><p>Optional. Specifies the function Behavior. Currently only non-blocking functions are
+supported. If not specified, the system keeps the current function call behavior. This field
+is currently only supported by the BidiGenerateContent method.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -198,7 +199,7 @@ public Behavior? Behavior { get; set; }</code></pre>
 
   <h3 id="Google_GenAI_Types_FunctionDeclaration_Description" data-uid="Google.GenAI.Types.FunctionDeclaration.Description">
   Description
-  <a class="header-action link-secondary" title="View source" href="https://github.com/googleapis/dotnet-genai/blob/main/Google.GenAI/types/FunctionDeclaration.cs/#L38"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/jozkee/dotnet-genai/blob/main/Google.GenAI/types/FunctionDeclaration.cs/#L38"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Optional. Description and purpose of the function. Model uses it to decide how and whether
@@ -233,11 +234,11 @@ public string? Description { get; set; }</code></pre>
 
   <h3 id="Google_GenAI_Types_FunctionDeclaration_Name" data-uid="Google.GenAI.Types.FunctionDeclaration.Name">
   Name
-  <a class="header-action link-secondary" title="View source" href="https://github.com/googleapis/dotnet-genai/blob/main/Google.GenAI/types/FunctionDeclaration.cs/#L46"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/jozkee/dotnet-genai/blob/main/Google.GenAI/types/FunctionDeclaration.cs/#L46"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The name of the function to call. Must start with a letter or an underscore. Must be a-z,
-A-Z, 0-9, or contain underscores, dots, colons and dashes, with a maximum length of 64.</p>
+A-Z, 0-9, or contain underscores, dots, colons and dashes, with a maximum length of 128.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -268,7 +269,7 @@ public string? Name { get; set; }</code></pre>
 
   <h3 id="Google_GenAI_Types_FunctionDeclaration_Parameters" data-uid="Google.GenAI.Types.FunctionDeclaration.Parameters">
   Parameters
-  <a class="header-action link-secondary" title="View source" href="https://github.com/googleapis/dotnet-genai/blob/main/Google.GenAI/types/FunctionDeclaration.cs/#L62"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/jozkee/dotnet-genai/blob/main/Google.GenAI/types/FunctionDeclaration.cs/#L62"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Optional. Describes the parameters to this function in JSON Schema Object format. Reflects
@@ -308,7 +309,7 @@ public Schema? Parameters { get; set; }</code></pre>
 
   <h3 id="Google_GenAI_Types_FunctionDeclaration_ParametersJsonSchema" data-uid="Google.GenAI.Types.FunctionDeclaration.ParametersJsonSchema">
   ParametersJsonSchema
-  <a class="header-action link-secondary" title="View source" href="https://github.com/googleapis/dotnet-genai/blob/main/Google.GenAI/types/FunctionDeclaration.cs/#L76"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/jozkee/dotnet-genai/blob/main/Google.GenAI/types/FunctionDeclaration.cs/#L76"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Optional. Describes the parameters to the function in JSON Schema format. The schema must
@@ -343,7 +344,7 @@ public object? ParametersJsonSchema { get; set; }</code></pre>
 
   <h3 id="Google_GenAI_Types_FunctionDeclaration_Response" data-uid="Google.GenAI.Types.FunctionDeclaration.Response">
   Response
-  <a class="header-action link-secondary" title="View source" href="https://github.com/googleapis/dotnet-genai/blob/main/Google.GenAI/types/FunctionDeclaration.cs/#L88"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/jozkee/dotnet-genai/blob/main/Google.GenAI/types/FunctionDeclaration.cs/#L88"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Optional. Describes the output from this function in JSON Schema format. Reflects the Open
@@ -379,7 +380,7 @@ public Schema? Response { get; set; }</code></pre>
 
   <h3 id="Google_GenAI_Types_FunctionDeclaration_ResponseJsonSchema" data-uid="Google.GenAI.Types.FunctionDeclaration.ResponseJsonSchema">
   ResponseJsonSchema
-  <a class="header-action link-secondary" title="View source" href="https://github.com/googleapis/dotnet-genai/blob/main/Google.GenAI/types/FunctionDeclaration.cs/#L100"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/jozkee/dotnet-genai/blob/main/Google.GenAI/types/FunctionDeclaration.cs/#L100"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Optional. Describes the output from this function in JSON Schema format. The value specified
@@ -419,7 +420,7 @@ public object? ResponseJsonSchema { get; set; }</code></pre>
 
   <h3 id="Google_GenAI_Types_FunctionDeclaration_FromJson_System_String_System_Text_Json_JsonSerializerOptions_" data-uid="Google.GenAI.Types.FunctionDeclaration.FromJson(System.String,System.Text.Json.JsonSerializerOptions)">
   FromJson(string, JsonSerializerOptions?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/googleapis/dotnet-genai/blob/main/Google.GenAI/types/FunctionDeclaration.cs/#L125"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/jozkee/dotnet-genai/blob/main/Google.GenAI/types/FunctionDeclaration.cs/#L126"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Deserializes a JSON string to a FunctionDeclaration object.</p>
@@ -462,7 +463,7 @@ fails.</p>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/googleapis/dotnet-genai/blob/main/Google.GenAI/types/FunctionDeclaration.cs/#L33" class="edit-link">Edit this page</a>
+          <a href="https://github.com/jozkee/dotnet-genai/blob/main/Google.GenAI/types/FunctionDeclaration.cs/#L33" class="edit-link">Edit this page</a>
         </div>
 
 

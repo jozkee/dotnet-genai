@@ -178,12 +178,27 @@ API.</p>
 </dd>
     </dl>
     <dl class="jumplist">
+      <dt><a class="xref" href="Google.GenAI.Types.AuthToken.html">AuthToken</a></dt>
+      <dd><p>Config for auth_tokens.create parameters.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
       <dt><a class="xref" href="Google.GenAI.Types.AuthTypeConverter.html">AuthTypeConverter</a></dt>
       <dd></dd>
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="Google.GenAI.Types.AutomaticActivityDetection.html">AutomaticActivityDetection</a></dt>
       <dd><p>Configures automatic detection of activity.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Google.GenAI.Types.AutoraterConfig.html">AutoraterConfig</a></dt>
+      <dd><p>Autorater config used for evaluation.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Google.GenAI.Types.AvatarConfig.html">AvatarConfig</a></dt>
+      <dd><p>Configures the avatar to be used in the session.</p>
 </dd>
     </dl>
     <dl class="jumplist">
@@ -194,6 +209,11 @@ API.</p>
     <dl class="jumplist">
       <dt><a class="xref" href="Google.GenAI.Types.BatchJobDestination.html">BatchJobDestination</a></dt>
       <dd><p>Config for <code>des</code> parameter.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Google.GenAI.Types.BatchJobOutputInfo.html">BatchJobOutputInfo</a></dt>
+      <dd><p>Represents the <code>output_info</code> field in batch jobs.</p>
 </dd>
     </dl>
     <dl class="jumplist">
@@ -271,15 +291,29 @@ audio, and video.</p>
 </dd>
     </dl>
     <dl class="jumplist">
+      <dt><a class="xref" href="Google.GenAI.Types.ClientOptions.html">ClientOptions</a></dt>
+      <dd><p>Client options to be used in the client instantiation.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
       <dt><a class="xref" href="Google.GenAI.Types.CodeExecutionResult.html">CodeExecutionResult</a></dt>
-      <dd><p>Result of executing the <code>ExecutableCode</code>.  Generated only when the <code>CodeExecution</code> tool is
-used.</p>
+      <dd><p>Result of executing the ExecutableCode. Generated only when the <code>CodeExecution</code> tool is used.</p>
 </dd>
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="Google.GenAI.Types.CompletionStats.html">CompletionStats</a></dt>
       <dd><p>Success and error statistics of processing multiple entities (for example, DataItems or
 structured data rows) in batch. This data type is not supported in Gemini API.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Google.GenAI.Types.CompositeReinforcementTuningRewardConfig.html">CompositeReinforcementTuningRewardConfig</a></dt>
+      <dd><p>Composite reinforcement tuning reward config.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Google.GenAI.Types.CompositeReinforcementTuningRewardConfigWeightedRewardConfig.html">CompositeReinforcementTuningRewardConfigWeightedRewardConfig</a></dt>
+      <dd><p>Composite reinforcement tuning reward config weighted reward config.</p>
 </dd>
     </dl>
     <dl class="jumplist">
@@ -354,6 +388,11 @@ for the model to fill in based on the prompt.</p>
 </dd>
     </dl>
     <dl class="jumplist">
+      <dt><a class="xref" href="Google.GenAI.Types.CreateAuthTokenConfig.html">CreateAuthTokenConfig</a></dt>
+      <dd><p>Optional parameters.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
       <dt><a class="xref" href="Google.GenAI.Types.CreateBatchJobConfig.html">CreateBatchJobConfig</a></dt>
       <dd><p>Config for optional parameters.</p>
 </dd>
@@ -391,6 +430,11 @@ for the model to fill in based on the prompt.</p>
     <dl class="jumplist">
       <dt><a class="xref" href="Google.GenAI.Types.CustomOutput.html">CustomOutput</a></dt>
       <dd><p>Spec for custom output. This data type is not supported in Gemini API.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Google.GenAI.Types.CustomizedAvatar.html">CustomizedAvatar</a></dt>
+      <dd><p>Configures the customized avatar to be used in the session.</p>
 </dd>
     </dl>
     <dl class="jumplist">
@@ -456,13 +500,12 @@ sampled from the teacher model. This data type is not supported in Gemini API.</
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="Google.GenAI.Types.DistillationHyperParameters.html">DistillationHyperParameters</a></dt>
-      <dd><p>Hyperparameters for distillation.</p>
+      <dd><p>Distillation hyperparameters for tuning.</p>
 </dd>
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="Google.GenAI.Types.DistillationSamplingSpec.html">DistillationSamplingSpec</a></dt>
-      <dd><p>Spec for creating a distilled dataset in Vertex Dataset. This data type is not supported in
-Gemini API.</p>
+      <dd><p>Distillation sampling spec for tuning.</p>
 </dd>
     </dl>
     <dl class="jumplist">
@@ -510,7 +553,7 @@ Gemini API.</p>
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="Google.GenAI.Types.EmbedContentMetadata.html">EmbedContentMetadata</a></dt>
-      <dd><p>Request-level metadata for the Vertex Embed Content API.</p>
+      <dd><p>Request-level metadata for the Gemini Enterprise Agent Platform Embed Content API.</p>
 </dd>
     </dl>
     <dl class="jumplist">
@@ -579,9 +622,9 @@ supported in Gemini API.</p>
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="Google.GenAI.Types.ExecutableCode.html">ExecutableCode</a></dt>
-      <dd><p>Model-generated code executed server-side, results returned to the model.  Only generated when
-using the <code>CodeExecution</code> tool, in which the code will be automatically executed, and a
-corresponding <code>CodeExecutionResult</code> will also be generated.</p>
+      <dd><p>Code generated by the model that is meant to be executed, and the result returned to the
+model. Generated when using the <code>CodeExecution</code> tool, in which the code will be automatically
+executed, and a corresponding CodeExecutionResult will also be generated.</p>
 </dd>
     </dl>
     <dl class="jumplist">
@@ -653,7 +696,9 @@ supported in Vertex AI.</p>
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="Google.GenAI.Types.FunctionCall.html">FunctionCall</a></dt>
-      <dd><p>A function call.</p>
+      <dd><p>A predicted FunctionCall returned from the model that contains a string representing the
+FunctionDeclaration.name and a structured JSON object containing the parameters and their
+values.</p>
 </dd>
     </dl>
     <dl class="jumplist">
@@ -676,26 +721,29 @@ the client.</p>
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="Google.GenAI.Types.FunctionResponse.html">FunctionResponse</a></dt>
-      <dd><p>A function response.</p>
+      <dd><p>The result output from a FunctionCall that contains a string representing the
+FunctionDeclaration.name and a structured JSON object containing any output from the function
+is used as context to the model. This should contain the result of a <code>FunctionCall</code> made based
+on model prediction.</p>
 </dd>
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="Google.GenAI.Types.FunctionResponseBlob.html">FunctionResponseBlob</a></dt>
-      <dd><p>Raw media bytes for function response.  Text should not be sent as raw bytes, use the
-FunctionResponse.response field.</p>
+      <dd><p>Raw media bytes for function response. Text should not be sent as raw bytes, use the 'text'
+field.</p>
 </dd>
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="Google.GenAI.Types.FunctionResponseFileData.html">FunctionResponseFileData</a></dt>
-      <dd><p>URI based data for function response.</p>
+      <dd><p>URI based data for function response. This data type is not supported in Gemini API.</p>
 </dd>
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="Google.GenAI.Types.FunctionResponsePart.html">FunctionResponsePart</a></dt>
-      <dd><p>A datatype containing media that is part of a <code>FunctionResponse</code> message.  A
+      <dd><p>A datatype containing media that is part of a <code>FunctionResponse</code> message. A
 <code>FunctionResponsePart</code> consists of data which has an associated datatype. A
 <code>FunctionResponsePart</code> can only contain one of the accepted types in
-<code>FunctionResponsePart.data</code>.  A <code>FunctionResponsePart</code> must have a fixed IANA MIME type
+<code>FunctionResponsePart.data</code>. A <code>FunctionResponsePart</code> must have a fixed IANA MIME type
 identifying the type and subtype of the media if the <code>inline_data</code> field is filled with raw
 bytes.</p>
 </dd>
@@ -1020,6 +1068,10 @@ only when the grounding source is Google Maps. This data type is not supported i
       <dd></dd>
     </dl>
     <dl class="jumplist">
+      <dt><a class="xref" href="Google.GenAI.Types.ImageResizeModeConverter.html">ImageResizeModeConverter</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
       <dt><a class="xref" href="Google.GenAI.Types.ImageSearch.html">ImageSearch</a></dt>
       <dd><p>Image search for grounding and related configurations.</p>
 </dd>
@@ -1072,11 +1124,9 @@ matches any time.</p>
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="Google.GenAI.Types.LatLng.html">LatLng</a></dt>
-      <dd><p>An object that represents a latitude/longitude pair.  This is expressed as a pair of doubles
-to represent degrees latitude and degrees longitude. Unless specified otherwise, this object
-must conform to the &lt;a
-href=&quot;https://en.wikipedia.org/wiki/World_Geodetic_System#1984_version&quot;&gt; WGS84
-standard&lt;/a&gt;. Values must be within normalized ranges.</p>
+      <dd><p>An object that represents a latitude/longitude pair. This is expressed as a pair of doubles to
+represent degrees latitude and degrees longitude. Unless specified otherwise, this object must
+conform to the WGS84 standard. Values must be within normalized ranges.</p>
 </dd>
     </dl>
     <dl class="jumplist">
@@ -1168,6 +1218,11 @@ calling happens over this dedicated set of messages.</p>
     <dl class="jumplist">
       <dt><a class="xref" href="Google.GenAI.Types.LiveConnectConfig.html">LiveConnectConfig</a></dt>
       <dd><p>Session config for the API connection.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Google.GenAI.Types.LiveConnectConstraints.html">LiveConnectConstraints</a></dt>
+      <dd><p>Config for LiveConnectConstraints for Auth Token creation.</p>
 </dd>
     </dl>
     <dl class="jumplist">
@@ -1272,7 +1327,7 @@ If the user provides a mask image, the mask must be in the same dimensions as th
     <dl class="jumplist">
       <dt><a class="xref" href="Google.GenAI.Types.McpServer.html">McpServer</a></dt>
       <dd><p>A MCPServer is a server that can be called by the model to perform actions. It is a server
-that implements the MCP protocol. Next ID: 5. This data type is not supported in Vertex AI.</p>
+that implements the MCP protocol. Next ID: 6. This data type is not supported in Vertex AI.</p>
 </dd>
     </dl>
     <dl class="jumplist">
@@ -1514,6 +1569,11 @@ activity detection is disabled.</p>
 </dd>
     </dl>
     <dl class="jumplist">
+      <dt><a class="xref" href="Google.GenAI.Types.ReinforcementTuningAutoraterScorer.html">ReinforcementTuningAutoraterScorer</a></dt>
+      <dd><p>Reinforcement tuning autorater scorer.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
       <dt><a class="xref" href="Google.GenAI.Types.ReplayFile.html">ReplayFile</a></dt>
       <dd><p>Represents a recorded session.</p>
 </dd>
@@ -1647,6 +1707,11 @@ may be added in the future as needed.</p>
 </dd>
     </dl>
     <dl class="jumplist">
+      <dt><a class="xref" href="Google.GenAI.Types.SingleReinforcementTuningRewardConfig.html">SingleReinforcementTuningRewardConfig</a></dt>
+      <dd><p>Single reinforcement tuning reward config.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
       <dt><a class="xref" href="Google.GenAI.Types.SlidingWindow.html">SlidingWindow</a></dt>
       <dd><p>Context window will be truncated by keeping only suffix of it.  Context window will always be
 cut at start of USER role turn. System instructions and
@@ -1766,13 +1831,13 @@ turn within a <code>Content</code> message, along with the corresponding <code>T
     <dl class="jumplist">
       <dt><a class="xref" href="Google.GenAI.Types.ToolCodeExecution.html">ToolCodeExecution</a></dt>
       <dd><p>Tool that executes code generated by the model, and automatically returns the result to the
-model. See also [ExecutableCode]and [CodeExecutionResult] which are input and output to this
+model. See also ExecutableCode and CodeExecutionResult, which are input and output to this
 tool. This data type is not supported in Gemini API.</p>
 </dd>
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="Google.GenAI.Types.ToolConfig.html">ToolConfig</a></dt>
-      <dd><p>Tool config.  This config is shared for all tools provided in the request.</p>
+      <dd><p>Tool config. This config is shared for all tools provided in the request.</p>
 </dd>
     </dl>
     <dl class="jumplist">
@@ -1800,6 +1865,11 @@ corresponding <code>ToolCall</code>.</p>
     <dl class="jumplist">
       <dt><a class="xref" href="Google.GenAI.Types.Transcription.html">Transcription</a></dt>
       <dd><p>Audio transcription in Server Conent.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Google.GenAI.Types.TranslationConfig.html">TranslationConfig</a></dt>
+      <dd><p>Config for stream translation.</p>
 </dd>
     </dl>
     <dl class="jumplist">
@@ -1858,6 +1928,10 @@ corresponding <code>ToolCall</code>.</p>
       <dt><a class="xref" href="Google.GenAI.Types.TuningOperation.html">TuningOperation</a></dt>
       <dd><p>A long-running operation.</p>
 </dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Google.GenAI.Types.TuningSpeedConverter.html">TuningSpeedConverter</a></dt>
+      <dd></dd>
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="Google.GenAI.Types.TuningTaskConverter.html">TuningTaskConverter</a></dt>
@@ -1950,6 +2024,11 @@ user-provided URL.</p>
 </dd>
     </dl>
     <dl class="jumplist">
+      <dt><a class="xref" href="Google.GenAI.Types.VeoLoraTuningSpec.html">VeoLoraTuningSpec</a></dt>
+      <dd><p>Tuning Spec for Veo LoRA Model Tuning. This data type is not supported in Gemini API.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
       <dt><a class="xref" href="Google.GenAI.Types.VeoTuningSpec.html">VeoTuningSpec</a></dt>
       <dd><p>Tuning Spec for Veo Model Tuning. This data type is not supported in Gemini API.</p>
 </dd>
@@ -1967,6 +2046,12 @@ supported in Gemini API.</p>
 data stores. For more information, see
 <a href="https://cloud.google.com/generative-ai-app-builder/docs/reference/rpc/google.cloud.discoveryengine.v1#datastorespec">https://cloud.google.com/generative-ai-app-builder/docs/reference/rpc/google.cloud.discoveryengine.v1#datastorespec</a>.
 This data type is not supported in Gemini API.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Google.GenAI.Types.VertexMultimodalDatasetDestination.html">VertexMultimodalDatasetDestination</a></dt>
+      <dd><p>This class is experimental and may change in future versions.  The specification for an output
+Vertex AI multimodal dataset.</p>
 </dd>
     </dl>
     <dl class="jumplist">
@@ -2013,6 +2098,10 @@ rate.</p>
 </dd>
     </dl>
     <dl class="jumplist">
+      <dt><a class="xref" href="Google.GenAI.Types.VideoOrientationConverter.html">VideoOrientationConverter</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
       <dt><a class="xref" href="Google.GenAI.Types.VoiceActivity.html">VoiceActivity</a></dt>
       <dd><p>Voice activity signal.</p>
 </dd>
@@ -2033,6 +2122,13 @@ rate.</p>
     <dl class="jumplist">
       <dt><a class="xref" href="Google.GenAI.Types.WebSearch.html">WebSearch</a></dt>
       <dd><p>Standard web search for grounding and related configurations. Only text results are returned.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Google.GenAI.Types.WebhookConfig.html">WebhookConfig</a></dt>
+      <dd><p>Configuration for webhook notifications.  Used to configure webhook endpoints that will
+receive notifications when long-running operations (e.g., batch jobs, video generation)
+complete.</p>
 </dd>
     </dl>
     <h3 id="structs">
@@ -2065,8 +2161,9 @@ Structs
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="Google.GenAI.Types.Behavior.html">Behavior</a></dt>
-      <dd><p>Specifies the function Behavior. Currently only supported by the BidiGenerateContent method.
-This enum is not supported in Vertex AI.</p>
+      <dd><p>Specifies the function Behavior. Currently only non-blocking functions are supported. If not
+specified, the system keeps the current function call behavior. This field is currently only
+supported by the BidiGenerateContent method.</p>
 </dd>
     </dl>
     <dl class="jumplist">
@@ -2091,7 +2188,7 @@ This enum is not supported in Vertex AI.</p>
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="Google.GenAI.Types.EmbeddingApiType.html">EmbeddingApiType</a></dt>
-      <dd><p>Enum representing the Vertex embedding API to use.</p>
+      <dd><p>Enum representing the Gemini Enterprise Agent Platform embedding API to use.</p>
 </dd>
     </dl>
     <dl class="jumplist">
@@ -2132,7 +2229,8 @@ stopped generating the tokens.</p>
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="Google.GenAI.Types.FunctionResponseScheduling.html">FunctionResponseScheduling</a></dt>
-      <dd><p>Specifies how the response should be scheduled in the conversation.</p>
+      <dd><p>Specifies how the response should be scheduled in the conversation. Only applicable to
+NON_BLOCKING function calls, is ignored otherwise. Defaults to WHEN_IDLE.</p>
 </dd>
     </dl>
     <dl class="jumplist">
@@ -2170,6 +2268,11 @@ content will be blocked.</p>
     <dl class="jumplist">
       <dt><a class="xref" href="Google.GenAI.Types.ImagePromptLanguage.html">ImagePromptLanguage</a></dt>
       <dd><p>Enum that specifies the language of the text in the prompt.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Google.GenAI.Types.ImageResizeMode.html">ImageResizeMode</a></dt>
+      <dd><p>Resize mode for the image input for video generation.</p>
 </dd>
     </dl>
     <dl class="jumplist">
@@ -2303,8 +2406,14 @@ This enum is not supported in Gemini API.</p>
 </dd>
     </dl>
     <dl class="jumplist">
+      <dt><a class="xref" href="Google.GenAI.Types.TuningSpeed.html">TuningSpeed</a></dt>
+      <dd><p>The speed of the tuning job. Only supported for Veo 3.0 models. This enum is not supported in
+Gemini API.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
       <dt><a class="xref" href="Google.GenAI.Types.TuningTask.html">TuningTask</a></dt>
-      <dd><p>The tuning task. Either I2V or T2V. This enum is not supported in Gemini API.</p>
+      <dd><p>The tuning task for Veo. This enum is not supported in Gemini API.</p>
 </dd>
     </dl>
     <dl class="jumplist">
@@ -2345,6 +2454,11 @@ This enum is not supported in Gemini API.</p>
     <dl class="jumplist">
       <dt><a class="xref" href="Google.GenAI.Types.VideoGenerationReferenceType.html">VideoGenerationReferenceType</a></dt>
       <dd><p>Enum for the reference type of a video generation reference image.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Google.GenAI.Types.VideoOrientation.html">VideoOrientation</a></dt>
+      <dd><p>The orientation of the video. Defaults to LANDSCAPE. This enum is not supported in Gemini API.</p>
 </dd>
     </dl>
     <dl class="jumplist">

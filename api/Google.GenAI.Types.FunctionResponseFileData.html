@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Class FunctionResponseFileData | Google GenAI .NET SDK ">
       
-      <meta name="description" content="URI based data for function response.">
+      <meta name="description" content="URI based data for function response. This data type is not supported in Gemini API.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -16,7 +16,7 @@
       
       
       
-      <meta name="docfx:docurl" content="https://github.com/googleapis/dotnet-genai/new/main/apiSpec/new?filename=Google_GenAI_Types_FunctionResponseFileData.md&amp;value=---%0Auid%3A%20Google.GenAI.Types.FunctionResponseFileData%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/jozkee/dotnet-genai/new/main/apiSpec/new?filename=Google_GenAI_Types_FunctionResponseFileData.md&amp;value=---%0Auid%3A%20Google.GenAI.Types.FunctionResponseFileData%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -85,7 +85,7 @@
 
 
   <h1 id="Google_GenAI_Types_FunctionResponseFileData" data-uid="Google.GenAI.Types.FunctionResponseFileData" class="text-break">
-Class FunctionResponseFileData  <a class="header-action link-secondary" title="View source" href="https://github.com/googleapis/dotnet-genai/blob/main/Google.GenAI/types/FunctionResponseFileData.cs/#L29"><i class="bi bi-code-slash"></i></a>
+Class FunctionResponseFileData  <a class="header-action link-secondary" title="View source" href="https://github.com/jozkee/dotnet-genai/blob/main/Google.GenAI/types/FunctionResponseFileData.cs/#L29"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -93,7 +93,7 @@ Class FunctionResponseFileData  <a class="header-action link-secondary" title="V
   <dl><dt>Assembly</dt><dd>Google.GenAI.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>URI based data for function response.</p>
+  <div class="markdown summary"><p>URI based data for function response. This data type is not supported in Gemini API.</p>
 </div>
   <div class="markdown conceptual"></div>
 
@@ -159,11 +159,13 @@ Class FunctionResponseFileData  <a class="header-action link-secondary" title="V
 
   <h3 id="Google_GenAI_Types_FunctionResponseFileData_DisplayName" data-uid="Google.GenAI.Types.FunctionResponseFileData.DisplayName">
   DisplayName
-  <a class="header-action link-secondary" title="View source" href="https://github.com/googleapis/dotnet-genai/blob/main/Google.GenAI/types/FunctionResponseFileData.cs/#L51"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/jozkee/dotnet-genai/blob/main/Google.GenAI/types/FunctionResponseFileData.cs/#L53"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Optional. Display name of the file. Used to provide a label or filename to distinguish
-files.</p>
+  <div class="markdown level1 summary"><p>Optional. Display name of the file data. Used to provide a label or filename to distinguish
+file datas. This field is only returned in PromptMessage for prompt management. It is
+currently used in the Gemini GenerateContent calls only when server side tools
+(code_execution, google_search, and url_context) are enabled.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -194,7 +196,7 @@ public string? DisplayName { get; set; }</code></pre>
 
   <h3 id="Google_GenAI_Types_FunctionResponseFileData_FileUri" data-uid="Google.GenAI.Types.FunctionResponseFileData.FileUri">
   FileUri
-  <a class="header-action link-secondary" title="View source" href="https://github.com/googleapis/dotnet-genai/blob/main/Google.GenAI/types/FunctionResponseFileData.cs/#L33"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/jozkee/dotnet-genai/blob/main/Google.GenAI/types/FunctionResponseFileData.cs/#L33"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>URI.</p>
@@ -228,7 +230,7 @@ public string? FileUri { get; set; }</code></pre>
 
   <h3 id="Google_GenAI_Types_FunctionResponseFileData_MimeType" data-uid="Google.GenAI.Types.FunctionResponseFileData.MimeType">
   MimeType
-  <a class="header-action link-secondary" title="View source" href="https://github.com/googleapis/dotnet-genai/blob/main/Google.GenAI/types/FunctionResponseFileData.cs/#L40"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/jozkee/dotnet-genai/blob/main/Google.GenAI/types/FunctionResponseFileData.cs/#L40"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The IANA standard MIME type of the source data.</p>
@@ -266,7 +268,7 @@ public string? MimeType { get; set; }</code></pre>
 
   <h3 id="Google_GenAI_Types_FunctionResponseFileData_FromJson_System_String_System_Text_Json_JsonSerializerOptions_" data-uid="Google.GenAI.Types.FunctionResponseFileData.FromJson(System.String,System.Text.Json.JsonSerializerOptions)">
   FromJson(string, JsonSerializerOptions?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/googleapis/dotnet-genai/blob/main/Google.GenAI/types/FunctionResponseFileData.cs/#L65"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/jozkee/dotnet-genai/blob/main/Google.GenAI/types/FunctionResponseFileData.cs/#L67"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Deserializes a JSON string to a FunctionResponseFileData object.</p>
@@ -309,7 +311,7 @@ fails.</p>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/googleapis/dotnet-genai/blob/main/Google.GenAI/types/FunctionResponseFileData.cs/#L29" class="edit-link">Edit this page</a>
+          <a href="https://github.com/jozkee/dotnet-genai/blob/main/Google.GenAI/types/FunctionResponseFileData.cs/#L29" class="edit-link">Edit this page</a>
         </div>
 
 

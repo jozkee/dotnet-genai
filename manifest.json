@@ -266,6 +266,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Google.GenAI.Tokens.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.GenAI.Tokens.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Google.GenAI.Tokens",
+      "Summary": "<p sourcefile=\"api/Google.GenAI.Tokens.yml\" sourcestartlinenumber=\"1\">Provides methods for managing the ephemeral auth tokens. The tokens module is experimental.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Google.GenAI.Tunings.yml",
       "output": {
         ".html": {
@@ -574,6 +588,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Google.GenAI.Types.AuthToken.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.GenAI.Types.AuthToken.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Google.GenAI.Types.AuthToken",
+      "Summary": "<p sourcefile=\"api/Google.GenAI.Types.AuthToken.yml\" sourcestartlinenumber=\"1\">Config for auth_tokens.create parameters.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Google.GenAI.Types.AuthType.yml",
       "output": {
         ".html": {
@@ -616,6 +644,34 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Google.GenAI.Types.AutoraterConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.GenAI.Types.AutoraterConfig.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Google.GenAI.Types.AutoraterConfig",
+      "Summary": "<p sourcefile=\"api/Google.GenAI.Types.AutoraterConfig.yml\" sourcestartlinenumber=\"1\">Autorater config used for evaluation.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.GenAI.Types.AvatarConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.GenAI.Types.AvatarConfig.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Google.GenAI.Types.AvatarConfig",
+      "Summary": "<p sourcefile=\"api/Google.GenAI.Types.AvatarConfig.yml\" sourcestartlinenumber=\"1\">Configures the avatar to be used in the session.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Google.GenAI.Types.BatchJob.yml",
       "output": {
         ".html": {
@@ -644,6 +700,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Google.GenAI.Types.BatchJobOutputInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.GenAI.Types.BatchJobOutputInfo.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Google.GenAI.Types.BatchJobOutputInfo",
+      "Summary": "<p sourcefile=\"api/Google.GenAI.Types.BatchJobOutputInfo.yml\" sourcestartlinenumber=\"1\">Represents the <code sourcefile=\"api/Google.GenAI.Types.BatchJobOutputInfo.yml\" sourcestartlinenumber=\"1\">output_info</code> field in batch jobs.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Google.GenAI.Types.BatchJobSource.yml",
       "output": {
         ".html": {
@@ -668,7 +738,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Google.GenAI.Types.Behavior",
-      "Summary": "<p sourcefile=\"api/Google.GenAI.Types.Behavior.yml\" sourcestartlinenumber=\"1\">Specifies the function Behavior. Currently only supported by the BidiGenerateContent method.\nThis enum is not supported in Vertex AI.</p>\n"
+      "Summary": "<p sourcefile=\"api/Google.GenAI.Types.Behavior.yml\" sourcestartlinenumber=\"1\">Specifies the function Behavior. Currently only non-blocking functions are supported. If not\nspecified, the system keeps the current function call behavior. This field is currently only\nsupported by the BidiGenerateContent method.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -882,6 +952,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Google.GenAI.Types.ClientOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.GenAI.Types.ClientOptions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Google.GenAI.Types.ClientOptions",
+      "Summary": "<p sourcefile=\"api/Google.GenAI.Types.ClientOptions.yml\" sourcestartlinenumber=\"1\">Client options to be used in the client instantiation.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Google.GenAI.Types.CodeExecutionResult.yml",
       "output": {
         ".html": {
@@ -892,7 +976,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Google.GenAI.Types.CodeExecutionResult",
-      "Summary": "<p sourcefile=\"api/Google.GenAI.Types.CodeExecutionResult.yml\" sourcestartlinenumber=\"1\">Result of executing the <code sourcefile=\"api/Google.GenAI.Types.CodeExecutionResult.yml\" sourcestartlinenumber=\"1\">ExecutableCode</code>.  Generated only when the <code sourcefile=\"api/Google.GenAI.Types.CodeExecutionResult.yml\" sourcestartlinenumber=\"1\">CodeExecution</code> tool is\nused.</p>\n"
+      "Summary": "<p sourcefile=\"api/Google.GenAI.Types.CodeExecutionResult.yml\" sourcestartlinenumber=\"1\">Result of executing the ExecutableCode. Generated only when the <code sourcefile=\"api/Google.GenAI.Types.CodeExecutionResult.yml\" sourcestartlinenumber=\"1\">CodeExecution</code> tool is used.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -907,6 +991,34 @@
       "IsMRef": true,
       "Title": "Google.GenAI.Types.CompletionStats",
       "Summary": "<p sourcefile=\"api/Google.GenAI.Types.CompletionStats.yml\" sourcestartlinenumber=\"1\">Success and error statistics of processing multiple entities (for example, DataItems or\nstructured data rows) in batch. This data type is not supported in Gemini API.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.GenAI.Types.CompositeReinforcementTuningRewardConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.GenAI.Types.CompositeReinforcementTuningRewardConfig.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Google.GenAI.Types.CompositeReinforcementTuningRewardConfig",
+      "Summary": "<p sourcefile=\"api/Google.GenAI.Types.CompositeReinforcementTuningRewardConfig.yml\" sourcestartlinenumber=\"1\">Composite reinforcement tuning reward config.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.GenAI.Types.CompositeReinforcementTuningRewardConfigWeightedRewardConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.GenAI.Types.CompositeReinforcementTuningRewardConfigWeightedRewardConfig.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Google.GenAI.Types.CompositeReinforcementTuningRewardConfigWeightedRewardConfig",
+      "Summary": "<p sourcefile=\"api/Google.GenAI.Types.CompositeReinforcementTuningRewardConfigWeightedRewardConfig.yml\" sourcestartlinenumber=\"1\">Composite reinforcement tuning reward config weighted reward config.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1106,6 +1218,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Google.GenAI.Types.CreateAuthTokenConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.GenAI.Types.CreateAuthTokenConfig.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Google.GenAI.Types.CreateAuthTokenConfig",
+      "Summary": "<p sourcefile=\"api/Google.GenAI.Types.CreateAuthTokenConfig.yml\" sourcestartlinenumber=\"1\">Optional parameters.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Google.GenAI.Types.CreateBatchJobConfig.yml",
       "output": {
         ".html": {
@@ -1215,6 +1341,20 @@
       "IsMRef": true,
       "Title": "Google.GenAI.Types.CustomOutput",
       "Summary": "<p sourcefile=\"api/Google.GenAI.Types.CustomOutput.yml\" sourcestartlinenumber=\"1\">Spec for custom output. This data type is not supported in Gemini API.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.GenAI.Types.CustomizedAvatar.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.GenAI.Types.CustomizedAvatar.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Google.GenAI.Types.CustomizedAvatar",
+      "Summary": "<p sourcefile=\"api/Google.GenAI.Types.CustomizedAvatar.yml\" sourcestartlinenumber=\"1\">Configures the customized avatar to be used in the session.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1396,7 +1536,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Google.GenAI.Types.DistillationHyperParameters",
-      "Summary": "<p sourcefile=\"api/Google.GenAI.Types.DistillationHyperParameters.yml\" sourcestartlinenumber=\"1\">Hyperparameters for distillation.</p>\n"
+      "Summary": "<p sourcefile=\"api/Google.GenAI.Types.DistillationHyperParameters.yml\" sourcestartlinenumber=\"1\">Distillation hyperparameters for tuning.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1410,7 +1550,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Google.GenAI.Types.DistillationSamplingSpec",
-      "Summary": "<p sourcefile=\"api/Google.GenAI.Types.DistillationSamplingSpec.yml\" sourcestartlinenumber=\"1\">Spec for creating a distilled dataset in Vertex Dataset. This data type is not supported in\nGemini API.</p>\n"
+      "Summary": "<p sourcefile=\"api/Google.GenAI.Types.DistillationSamplingSpec.yml\" sourcestartlinenumber=\"1\">Distillation sampling spec for tuning.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1578,7 +1718,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Google.GenAI.Types.EmbedContentMetadata",
-      "Summary": "<p sourcefile=\"api/Google.GenAI.Types.EmbedContentMetadata.yml\" sourcestartlinenumber=\"1\">Request-level metadata for the Vertex Embed Content API.</p>\n"
+      "Summary": "<p sourcefile=\"api/Google.GenAI.Types.EmbedContentMetadata.yml\" sourcestartlinenumber=\"1\">Request-level metadata for the Gemini Enterprise Agent Platform Embed Content API.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1606,7 +1746,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Google.GenAI.Types.EmbeddingApiType",
-      "Summary": "<p sourcefile=\"api/Google.GenAI.Types.EmbeddingApiType.yml\" sourcestartlinenumber=\"1\">Enum representing the Vertex embedding API to use.</p>\n"
+      "Summary": "<p sourcefile=\"api/Google.GenAI.Types.EmbeddingApiType.yml\" sourcestartlinenumber=\"1\">Enum representing the Gemini Enterprise Agent Platform embedding API to use.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1816,7 +1956,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Google.GenAI.Types.ExecutableCode",
-      "Summary": "<p sourcefile=\"api/Google.GenAI.Types.ExecutableCode.yml\" sourcestartlinenumber=\"1\">Model-generated code executed server-side, results returned to the model.  Only generated when\nusing the <code sourcefile=\"api/Google.GenAI.Types.ExecutableCode.yml\" sourcestartlinenumber=\"2\">CodeExecution</code> tool, in which the code will be automatically executed, and a\ncorresponding <code sourcefile=\"api/Google.GenAI.Types.ExecutableCode.yml\" sourcestartlinenumber=\"3\">CodeExecutionResult</code> will also be generated.</p>\n"
+      "Summary": "<p sourcefile=\"api/Google.GenAI.Types.ExecutableCode.yml\" sourcestartlinenumber=\"1\">Code generated by the model that is meant to be executed, and the result returned to the\nmodel. Generated when using the <code sourcefile=\"api/Google.GenAI.Types.ExecutableCode.yml\" sourcestartlinenumber=\"2\">CodeExecution</code> tool, in which the code will be automatically\nexecuted, and a corresponding CodeExecutionResult will also be generated.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2068,7 +2208,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Google.GenAI.Types.FunctionCall",
-      "Summary": "<p sourcefile=\"api/Google.GenAI.Types.FunctionCall.yml\" sourcestartlinenumber=\"1\">A function call.</p>\n"
+      "Summary": "<p sourcefile=\"api/Google.GenAI.Types.FunctionCall.yml\" sourcestartlinenumber=\"1\">A predicted FunctionCall returned from the model that contains a string representing the\nFunctionDeclaration.name and a structured JSON object containing the parameters and their\nvalues.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2138,7 +2278,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Google.GenAI.Types.FunctionResponse",
-      "Summary": "<p sourcefile=\"api/Google.GenAI.Types.FunctionResponse.yml\" sourcestartlinenumber=\"1\">A function response.</p>\n"
+      "Summary": "<p sourcefile=\"api/Google.GenAI.Types.FunctionResponse.yml\" sourcestartlinenumber=\"1\">The result output from a FunctionCall that contains a string representing the\nFunctionDeclaration.name and a structured JSON object containing any output from the function\nis used as context to the model. This should contain the result of a <code sourcefile=\"api/Google.GenAI.Types.FunctionResponse.yml\" sourcestartlinenumber=\"3\">FunctionCall</code> made based\non model prediction.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2152,7 +2292,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Google.GenAI.Types.FunctionResponseBlob",
-      "Summary": "<p sourcefile=\"api/Google.GenAI.Types.FunctionResponseBlob.yml\" sourcestartlinenumber=\"1\">Raw media bytes for function response.  Text should not be sent as raw bytes, use the\nFunctionResponse.response field.</p>\n"
+      "Summary": "<p sourcefile=\"api/Google.GenAI.Types.FunctionResponseBlob.yml\" sourcestartlinenumber=\"1\">Raw media bytes for function response. Text should not be sent as raw bytes, use the 'text'\nfield.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2166,7 +2306,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Google.GenAI.Types.FunctionResponseFileData",
-      "Summary": "<p sourcefile=\"api/Google.GenAI.Types.FunctionResponseFileData.yml\" sourcestartlinenumber=\"1\">URI based data for function response.</p>\n"
+      "Summary": "<p sourcefile=\"api/Google.GenAI.Types.FunctionResponseFileData.yml\" sourcestartlinenumber=\"1\">URI based data for function response. This data type is not supported in Gemini API.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2180,7 +2320,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Google.GenAI.Types.FunctionResponsePart",
-      "Summary": "<p sourcefile=\"api/Google.GenAI.Types.FunctionResponsePart.yml\" sourcestartlinenumber=\"1\">A datatype containing media that is part of a <code sourcefile=\"api/Google.GenAI.Types.FunctionResponsePart.yml\" sourcestartlinenumber=\"1\">FunctionResponse</code> message.  A\n<code sourcefile=\"api/Google.GenAI.Types.FunctionResponsePart.yml\" sourcestartlinenumber=\"2\">FunctionResponsePart</code> consists of data which has an associated datatype. A\n<code sourcefile=\"api/Google.GenAI.Types.FunctionResponsePart.yml\" sourcestartlinenumber=\"3\">FunctionResponsePart</code> can only contain one of the accepted types in\n<code sourcefile=\"api/Google.GenAI.Types.FunctionResponsePart.yml\" sourcestartlinenumber=\"4\">FunctionResponsePart.data</code>.  A <code sourcefile=\"api/Google.GenAI.Types.FunctionResponsePart.yml\" sourcestartlinenumber=\"4\">FunctionResponsePart</code> must have a fixed IANA MIME type\nidentifying the type and subtype of the media if the <code sourcefile=\"api/Google.GenAI.Types.FunctionResponsePart.yml\" sourcestartlinenumber=\"5\">inline_data</code> field is filled with raw\nbytes.</p>\n"
+      "Summary": "<p sourcefile=\"api/Google.GenAI.Types.FunctionResponsePart.yml\" sourcestartlinenumber=\"1\">A datatype containing media that is part of a <code sourcefile=\"api/Google.GenAI.Types.FunctionResponsePart.yml\" sourcestartlinenumber=\"1\">FunctionResponse</code> message. A\n<code sourcefile=\"api/Google.GenAI.Types.FunctionResponsePart.yml\" sourcestartlinenumber=\"2\">FunctionResponsePart</code> consists of data which has an associated datatype. A\n<code sourcefile=\"api/Google.GenAI.Types.FunctionResponsePart.yml\" sourcestartlinenumber=\"3\">FunctionResponsePart</code> can only contain one of the accepted types in\n<code sourcefile=\"api/Google.GenAI.Types.FunctionResponsePart.yml\" sourcestartlinenumber=\"4\">FunctionResponsePart.data</code>. A <code sourcefile=\"api/Google.GenAI.Types.FunctionResponsePart.yml\" sourcestartlinenumber=\"4\">FunctionResponsePart</code> must have a fixed IANA MIME type\nidentifying the type and subtype of the media if the <code sourcefile=\"api/Google.GenAI.Types.FunctionResponsePart.yml\" sourcestartlinenumber=\"5\">inline_data</code> field is filled with raw\nbytes.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2194,7 +2334,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Google.GenAI.Types.FunctionResponseScheduling",
-      "Summary": "<p sourcefile=\"api/Google.GenAI.Types.FunctionResponseScheduling.yml\" sourcestartlinenumber=\"1\">Specifies how the response should be scheduled in the conversation.</p>\n"
+      "Summary": "<p sourcefile=\"api/Google.GenAI.Types.FunctionResponseScheduling.yml\" sourcestartlinenumber=\"1\">Specifies how the response should be scheduled in the conversation. Only applicable to\nNON_BLOCKING function calls, is ignored otherwise. Defaults to WHEN_IDLE.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -3136,6 +3276,34 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Google.GenAI.Types.ImageResizeMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.GenAI.Types.ImageResizeMode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Google.GenAI.Types.ImageResizeMode",
+      "Summary": "<p sourcefile=\"api/Google.GenAI.Types.ImageResizeMode.yml\" sourcestartlinenumber=\"1\">Resize mode for the image input for video generation.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.GenAI.Types.ImageResizeModeConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.GenAI.Types.ImageResizeModeConverter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Google.GenAI.Types.ImageResizeModeConverter",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Google.GenAI.Types.ImageSearch.yml",
       "output": {
         ".html": {
@@ -3314,7 +3482,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Google.GenAI.Types.LatLng",
-      "Summary": "<p sourcefile=\"api/Google.GenAI.Types.LatLng.yml\" sourcestartlinenumber=\"1\">An object that represents a latitude/longitude pair.  This is expressed as a pair of doubles\nto represent degrees latitude and degrees longitude. Unless specified otherwise, this object\nmust conform to the &lt;a\nhref=&quot;https://en.wikipedia.org/wiki/World_Geodetic_System#1984_version&quot;&gt; WGS84\nstandard&lt;/a&gt;. Values must be within normalized ranges.</p>\n"
+      "Summary": "<p sourcefile=\"api/Google.GenAI.Types.LatLng.yml\" sourcestartlinenumber=\"1\">An object that represents a latitude/longitude pair. This is expressed as a pair of doubles to\nrepresent degrees latitude and degrees longitude. Unless specified otherwise, this object must\nconform to the WGS84 standard. Values must be within normalized ranges.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -3539,6 +3707,20 @@
       "IsMRef": true,
       "Title": "Google.GenAI.Types.LiveConnectConfig",
       "Summary": "<p sourcefile=\"api/Google.GenAI.Types.LiveConnectConfig.yml\" sourcestartlinenumber=\"1\">Session config for the API connection.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.GenAI.Types.LiveConnectConstraints.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.GenAI.Types.LiveConnectConstraints.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Google.GenAI.Types.LiveConnectConstraints",
+      "Summary": "<p sourcefile=\"api/Google.GenAI.Types.LiveConnectConstraints.yml\" sourcestartlinenumber=\"1\">Config for LiveConnectConstraints for Auth Token creation.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -3804,7 +3986,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Google.GenAI.Types.McpServer",
-      "Summary": "<p sourcefile=\"api/Google.GenAI.Types.McpServer.yml\" sourcestartlinenumber=\"1\">A MCPServer is a server that can be called by the model to perform actions. It is a server\nthat implements the MCP protocol. Next ID: 5. This data type is not supported in Vertex AI.</p>\n"
+      "Summary": "<p sourcefile=\"api/Google.GenAI.Types.McpServer.yml\" sourcestartlinenumber=\"1\">A MCPServer is a server that can be called by the model to perform actions. It is a server\nthat implements the MCP protocol. Next ID: 6. This data type is not supported in Vertex AI.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -4606,6 +4788,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Google.GenAI.Types.ReinforcementTuningAutoraterScorer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.GenAI.Types.ReinforcementTuningAutoraterScorer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Google.GenAI.Types.ReinforcementTuningAutoraterScorer",
+      "Summary": "<p sourcefile=\"api/Google.GenAI.Types.ReinforcementTuningAutoraterScorer.yml\" sourcestartlinenumber=\"1\">Reinforcement tuning autorater scorer.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Google.GenAI.Types.ReplayFile.yml",
       "output": {
         ".html": {
@@ -5026,6 +5222,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Google.GenAI.Types.SingleReinforcementTuningRewardConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.GenAI.Types.SingleReinforcementTuningRewardConfig.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Google.GenAI.Types.SingleReinforcementTuningRewardConfig",
+      "Summary": "<p sourcefile=\"api/Google.GenAI.Types.SingleReinforcementTuningRewardConfig.yml\" sourcestartlinenumber=\"1\">Single reinforcement tuning reward config.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Google.GenAI.Types.SlidingWindow.yml",
       "output": {
         ".html": {
@@ -5386,7 +5596,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Google.GenAI.Types.ToolCodeExecution",
-      "Summary": "<p sourcefile=\"api/Google.GenAI.Types.ToolCodeExecution.yml\" sourcestartlinenumber=\"1\">Tool that executes code generated by the model, and automatically returns the result to the\nmodel. See also [ExecutableCode]and [CodeExecutionResult] which are input and output to this\ntool. This data type is not supported in Gemini API.</p>\n"
+      "Summary": "<p sourcefile=\"api/Google.GenAI.Types.ToolCodeExecution.yml\" sourcestartlinenumber=\"1\">Tool that executes code generated by the model, and automatically returns the result to the\nmodel. See also ExecutableCode and CodeExecutionResult, which are input and output to this\ntool. This data type is not supported in Gemini API.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -5400,7 +5610,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Google.GenAI.Types.ToolConfig",
-      "Summary": "<p sourcefile=\"api/Google.GenAI.Types.ToolConfig.yml\" sourcestartlinenumber=\"1\">Tool config.  This config is shared for all tools provided in the request.</p>\n"
+      "Summary": "<p sourcefile=\"api/Google.GenAI.Types.ToolConfig.yml\" sourcestartlinenumber=\"1\">Tool config. This config is shared for all tools provided in the request.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -5499,6 +5709,20 @@
       "IsMRef": true,
       "Title": "Google.GenAI.Types.Transcription",
       "Summary": "<p sourcefile=\"api/Google.GenAI.Types.Transcription.yml\" sourcestartlinenumber=\"1\">Audio transcription in Server Conent.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.GenAI.Types.TranslationConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.GenAI.Types.TranslationConfig.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Google.GenAI.Types.TranslationConfig",
+      "Summary": "<p sourcefile=\"api/Google.GenAI.Types.TranslationConfig.yml\" sourcestartlinenumber=\"1\">Config for stream translation.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -5712,6 +5936,34 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Google.GenAI.Types.TuningSpeed.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.GenAI.Types.TuningSpeed.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Google.GenAI.Types.TuningSpeed",
+      "Summary": "<p sourcefile=\"api/Google.GenAI.Types.TuningSpeed.yml\" sourcestartlinenumber=\"1\">The speed of the tuning job. Only supported for Veo 3.0 models. This enum is not supported in\nGemini API.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.GenAI.Types.TuningSpeedConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.GenAI.Types.TuningSpeedConverter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Google.GenAI.Types.TuningSpeedConverter",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Google.GenAI.Types.TuningTask.yml",
       "output": {
         ".html": {
@@ -5722,7 +5974,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Google.GenAI.Types.TuningTask",
-      "Summary": "<p sourcefile=\"api/Google.GenAI.Types.TuningTask.yml\" sourcestartlinenumber=\"1\">The tuning task. Either I2V or T2V. This enum is not supported in Gemini API.</p>\n"
+      "Summary": "<p sourcefile=\"api/Google.GenAI.Types.TuningTask.yml\" sourcestartlinenumber=\"1\">The tuning task for Veo. This enum is not supported in Gemini API.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -6062,6 +6314,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Google.GenAI.Types.VeoLoraTuningSpec.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.GenAI.Types.VeoLoraTuningSpec.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Google.GenAI.Types.VeoLoraTuningSpec",
+      "Summary": "<p sourcefile=\"api/Google.GenAI.Types.VeoLoraTuningSpec.yml\" sourcestartlinenumber=\"1\">Tuning Spec for Veo LoRA Model Tuning. This data type is not supported in Gemini API.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Google.GenAI.Types.VeoTuningSpec.yml",
       "output": {
         ".html": {
@@ -6101,6 +6367,20 @@
       "IsMRef": true,
       "Title": "Google.GenAI.Types.VertexAISearchDataStoreSpec",
       "Summary": "<p sourcefile=\"api/Google.GenAI.Types.VertexAISearchDataStoreSpec.yml\" sourcestartlinenumber=\"1\">Define data stores within engine to filter on in a search call and configurations for those\ndata stores. For more information, see\n<a href=\"https://cloud.google.com/generative-ai-app-builder/docs/reference/rpc/google.cloud.discoveryengine.v1#datastorespec\" sourcefile=\"api/Google.GenAI.Types.VertexAISearchDataStoreSpec.yml\" sourcestartlinenumber=\"3\">https://cloud.google.com/generative-ai-app-builder/docs/reference/rpc/google.cloud.discoveryengine.v1#datastorespec</a>.\nThis data type is not supported in Gemini API.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.GenAI.Types.VertexMultimodalDatasetDestination.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.GenAI.Types.VertexMultimodalDatasetDestination.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Google.GenAI.Types.VertexMultimodalDatasetDestination",
+      "Summary": "<p sourcefile=\"api/Google.GenAI.Types.VertexMultimodalDatasetDestination.yml\" sourcestartlinenumber=\"1\">This class is experimental and may change in future versions.  The specification for an output\nVertex AI multimodal dataset.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -6272,6 +6552,34 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Google.GenAI.Types.VideoOrientation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.GenAI.Types.VideoOrientation.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Google.GenAI.Types.VideoOrientation",
+      "Summary": "<p sourcefile=\"api/Google.GenAI.Types.VideoOrientation.yml\" sourcestartlinenumber=\"1\">The orientation of the video. Defaults to LANDSCAPE. This enum is not supported in Gemini API.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Google.GenAI.Types.VideoOrientationConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.GenAI.Types.VideoOrientationConverter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Google.GenAI.Types.VideoOrientationConverter",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Google.GenAI.Types.VoiceActivity.yml",
       "output": {
         ".html": {
@@ -6356,6 +6664,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Google.GenAI.Types.WebhookConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Google.GenAI.Types.WebhookConfig.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Google.GenAI.Types.WebhookConfig",
+      "Summary": "<p sourcefile=\"api/Google.GenAI.Types.WebhookConfig.yml\" sourcestartlinenumber=\"1\">Configuration for webhook notifications.  Used to configure webhook endpoints that will\nreceive notifications when long-running operations (e.g., batch jobs, video generation)\ncomplete.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Google.GenAI.Types.yml",
       "output": {
         ".html": {
@@ -6424,11 +6746,11 @@
       "type": "Toc",
       "source_relative_path": "api/toc.yml",
       "output": {
-        ".html": {
-          "relative_path": "api/toc.html"
-        },
         ".json": {
           "relative_path": "api/toc.json"
+        },
+        ".html": {
+          "relative_path": "api/toc.html"
         }
       },
       "version": ""
@@ -6447,11 +6769,11 @@
       "type": "Toc",
       "source_relative_path": "toc.yml",
       "output": {
-        ".html": {
-          "relative_path": "toc.html"
-        },
         ".json": {
           "relative_path": "toc.json"
+        },
+        ".html": {
+          "relative_path": "toc.html"
         }
       },
       "version": ""

@@ -16,7 +16,7 @@
       
       
       
-      <meta name="docfx:docurl" content="https://github.com/googleapis/dotnet-genai/new/main/apiSpec/new?filename=Google_GenAI_Types_LiveClientSetup.md&amp;value=---%0Auid%3A%20Google.GenAI.Types.LiveClientSetup%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/jozkee/dotnet-genai/new/main/apiSpec/new?filename=Google_GenAI_Types_LiveClientSetup.md&amp;value=---%0Auid%3A%20Google.GenAI.Types.LiveClientSetup%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -85,7 +85,7 @@
 
 
   <h1 id="Google_GenAI_Types_LiveClientSetup" data-uid="Google.GenAI.Types.LiveClientSetup" class="text-break">
-Class LiveClientSetup  <a class="header-action link-secondary" title="View source" href="https://github.com/googleapis/dotnet-genai/blob/main/Google.GenAI/types/LiveClientSetup.cs/#L29"><i class="bi bi-code-slash"></i></a>
+Class LiveClientSetup  <a class="header-action link-secondary" title="View source" href="https://github.com/jozkee/dotnet-genai/blob/main/Google.GenAI/types/LiveClientSetup.cs/#L29"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -155,11 +155,45 @@ Class LiveClientSetup  <a class="header-action link-secondary" title="View sourc
 </h2>
 
 
+  <a id="Google_GenAI_Types_LiveClientSetup_AvatarConfig_" data-uid="Google.GenAI.Types.LiveClientSetup.AvatarConfig*"></a>
+
+  <h3 id="Google_GenAI_Types_LiveClientSetup_AvatarConfig" data-uid="Google.GenAI.Types.LiveClientSetup.AvatarConfig">
+  AvatarConfig
+  <a class="header-action link-secondary" title="View source" href="https://github.com/jozkee/dotnet-genai/blob/main/Google.GenAI/types/LiveClientSetup.cs/#L148"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Configures the avatar model behavior.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;avatarConfig&quot;)]
+[JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)]
+public AvatarConfig? AvatarConfig { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Google.GenAI.Types.AvatarConfig.html">AvatarConfig</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="Google_GenAI_Types_LiveClientSetup_ContextWindowCompression_" data-uid="Google.GenAI.Types.LiveClientSetup.ContextWindowCompression*"></a>
 
   <h3 id="Google_GenAI_Types_LiveClientSetup_ContextWindowCompression" data-uid="Google.GenAI.Types.LiveClientSetup.ContextWindowCompression">
   ContextWindowCompression
-  <a class="header-action link-secondary" title="View source" href="https://github.com/googleapis/dotnet-genai/blob/main/Google.GenAI/types/LiveClientSetup.cs/#L95"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/jozkee/dotnet-genai/blob/main/Google.GenAI/types/LiveClientSetup.cs/#L95"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Configures context window compression mechanism.  If included, server will compress context
@@ -194,7 +228,7 @@ public ContextWindowCompressionConfig? ContextWindowCompression { get; set; }</c
 
   <h3 id="Google_GenAI_Types_LiveClientSetup_ExplicitVadSignal" data-uid="Google.GenAI.Types.LiveClientSetup.ExplicitVadSignal">
   ExplicitVadSignal
-  <a class="header-action link-secondary" title="View source" href="https://github.com/googleapis/dotnet-genai/blob/main/Google.GenAI/types/LiveClientSetup.cs/#L138"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/jozkee/dotnet-genai/blob/main/Google.GenAI/types/LiveClientSetup.cs/#L138"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Configures the explicit VAD signal. If enabled, the client will send vad_signal to indicate
@@ -229,7 +263,7 @@ public bool? ExplicitVadSignal { get; set; }</code></pre>
 
   <h3 id="Google_GenAI_Types_LiveClientSetup_GenerationConfig" data-uid="Google.GenAI.Types.LiveClientSetup.GenerationConfig">
   GenerationConfig
-  <a class="header-action link-secondary" title="View source" href="https://github.com/googleapis/dotnet-genai/blob/main/Google.GenAI/types/LiveClientSetup.cs/#L40"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/jozkee/dotnet-genai/blob/main/Google.GenAI/types/LiveClientSetup.cs/#L40"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The generation configuration for the session. Note: only a subset of fields are supported.</p>
@@ -263,7 +297,7 @@ public GenerationConfig? GenerationConfig { get; set; }</code></pre>
 
   <h3 id="Google_GenAI_Types_LiveClientSetup_InputAudioTranscription" data-uid="Google.GenAI.Types.LiveClientSetup.InputAudioTranscription">
   InputAudioTranscription
-  <a class="header-action link-secondary" title="View source" href="https://github.com/googleapis/dotnet-genai/blob/main/Google.GenAI/types/LiveClientSetup.cs/#L105"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/jozkee/dotnet-genai/blob/main/Google.GenAI/types/LiveClientSetup.cs/#L105"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The transcription of the input aligns with the input audio language.</p>
@@ -297,7 +331,7 @@ public AudioTranscriptionConfig? InputAudioTranscription { get; set; }</code></p
 
   <h3 id="Google_GenAI_Types_LiveClientSetup_Model" data-uid="Google.GenAI.Types.LiveClientSetup.Model">
   Model
-  <a class="header-action link-secondary" title="View source" href="https://github.com/googleapis/dotnet-genai/blob/main/Google.GenAI/types/LiveClientSetup.cs/#L33"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/jozkee/dotnet-genai/blob/main/Google.GenAI/types/LiveClientSetup.cs/#L33"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The fully qualified name of the publisher model or tuned model endpoint to use.</p>
@@ -331,7 +365,7 @@ public string? Model { get; set; }</code></pre>
 
   <h3 id="Google_GenAI_Types_LiveClientSetup_OutputAudioTranscription" data-uid="Google.GenAI.Types.LiveClientSetup.OutputAudioTranscription">
   OutputAudioTranscription
-  <a class="header-action link-secondary" title="View source" href="https://github.com/googleapis/dotnet-genai/blob/main/Google.GenAI/types/LiveClientSetup.cs/#L116"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/jozkee/dotnet-genai/blob/main/Google.GenAI/types/LiveClientSetup.cs/#L116"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The transcription of the output aligns with the language code specified for the output
@@ -366,7 +400,7 @@ public AudioTranscriptionConfig? OutputAudioTranscription { get; set; }</code></
 
   <h3 id="Google_GenAI_Types_LiveClientSetup_Proactivity" data-uid="Google.GenAI.Types.LiveClientSetup.Proactivity">
   Proactivity
-  <a class="header-action link-secondary" title="View source" href="https://github.com/googleapis/dotnet-genai/blob/main/Google.GenAI/types/LiveClientSetup.cs/#L127"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/jozkee/dotnet-genai/blob/main/Google.GenAI/types/LiveClientSetup.cs/#L127"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Configures the proactivity of the model. This allows the model to respond proactively to the
@@ -401,7 +435,7 @@ public ProactivityConfig? Proactivity { get; set; }</code></pre>
 
   <h3 id="Google_GenAI_Types_LiveClientSetup_RealtimeInputConfig" data-uid="Google.GenAI.Types.LiveClientSetup.RealtimeInputConfig">
   RealtimeInputConfig
-  <a class="header-action link-secondary" title="View source" href="https://github.com/googleapis/dotnet-genai/blob/main/Google.GenAI/types/LiveClientSetup.cs/#L73"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/jozkee/dotnet-genai/blob/main/Google.GenAI/types/LiveClientSetup.cs/#L73"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Configures the realtime input behavior in BidiGenerateContent.</p>
@@ -431,11 +465,45 @@ public RealtimeInputConfig? RealtimeInputConfig { get; set; }</code></pre>
 
 
 
+  <a id="Google_GenAI_Types_LiveClientSetup_SafetySettings_" data-uid="Google.GenAI.Types.LiveClientSetup.SafetySettings*"></a>
+
+  <h3 id="Google_GenAI_Types_LiveClientSetup_SafetySettings" data-uid="Google.GenAI.Types.LiveClientSetup.SafetySettings">
+  SafetySettings
+  <a class="header-action link-secondary" title="View source" href="https://github.com/jozkee/dotnet-genai/blob/main/Google.GenAI/types/LiveClientSetup.cs/#L158"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Safety settings in the request to block unsafe content in the response.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;safetySettings&quot;)]
+[JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)]
+public List&lt;SafetySetting&gt;? SafetySettings { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="Google.GenAI.Types.SafetySetting.html">SafetySetting</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="Google_GenAI_Types_LiveClientSetup_SessionResumption_" data-uid="Google.GenAI.Types.LiveClientSetup.SessionResumption*"></a>
 
   <h3 id="Google_GenAI_Types_LiveClientSetup_SessionResumption" data-uid="Google.GenAI.Types.LiveClientSetup.SessionResumption">
   SessionResumption
-  <a class="header-action link-secondary" title="View source" href="https://github.com/googleapis/dotnet-genai/blob/main/Google.GenAI/types/LiveClientSetup.cs/#L84"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/jozkee/dotnet-genai/blob/main/Google.GenAI/types/LiveClientSetup.cs/#L84"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Configures session resumption mechanism.  If included server will send
@@ -470,7 +538,7 @@ public SessionResumptionConfig? SessionResumption { get; set; }</code></pre>
 
   <h3 id="Google_GenAI_Types_LiveClientSetup_SystemInstruction" data-uid="Google.GenAI.Types.LiveClientSetup.SystemInstruction">
   SystemInstruction
-  <a class="header-action link-secondary" title="View source" href="https://github.com/googleapis/dotnet-genai/blob/main/Google.GenAI/types/LiveClientSetup.cs/#L51"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/jozkee/dotnet-genai/blob/main/Google.GenAI/types/LiveClientSetup.cs/#L51"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The user provided system instructions for the model. Note: only text should be used in parts
@@ -505,7 +573,7 @@ public Content? SystemInstruction { get; set; }</code></pre>
 
   <h3 id="Google_GenAI_Types_LiveClientSetup_Tools" data-uid="Google.GenAI.Types.LiveClientSetup.Tools">
   Tools
-  <a class="header-action link-secondary" title="View source" href="https://github.com/googleapis/dotnet-genai/blob/main/Google.GenAI/types/LiveClientSetup.cs/#L63"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/jozkee/dotnet-genai/blob/main/Google.GenAI/types/LiveClientSetup.cs/#L63"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>A list of <code>Tools</code> the model may use to generate the next response.  A <code>Tool</code> is a piece of
@@ -545,7 +613,7 @@ public List&lt;Tool&gt;? Tools { get; set; }</code></pre>
 
   <h3 id="Google_GenAI_Types_LiveClientSetup_FromJson_System_String_System_Text_Json_JsonSerializerOptions_" data-uid="Google.GenAI.Types.LiveClientSetup.FromJson(System.String,System.Text.Json.JsonSerializerOptions)">
   FromJson(string, JsonSerializerOptions?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/googleapis/dotnet-genai/blob/main/Google.GenAI/types/LiveClientSetup.cs/#L152"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/jozkee/dotnet-genai/blob/main/Google.GenAI/types/LiveClientSetup.cs/#L172"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Deserializes a JSON string to a LiveClientSetup object.</p>
@@ -588,7 +656,7 @@ fails.</p>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/googleapis/dotnet-genai/blob/main/Google.GenAI/types/LiveClientSetup.cs/#L29" class="edit-link">Edit this page</a>
+          <a href="https://github.com/jozkee/dotnet-genai/blob/main/Google.GenAI/types/LiveClientSetup.cs/#L29" class="edit-link">Edit this page</a>
         </div>
 
 

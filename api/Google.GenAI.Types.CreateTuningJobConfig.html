@@ -16,7 +16,7 @@
       
       
       
-      <meta name="docfx:docurl" content="https://github.com/googleapis/dotnet-genai/new/main/apiSpec/new?filename=Google_GenAI_Types_CreateTuningJobConfig.md&amp;value=---%0Auid%3A%20Google.GenAI.Types.CreateTuningJobConfig%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/jozkee/dotnet-genai/new/main/apiSpec/new?filename=Google_GenAI_Types_CreateTuningJobConfig.md&amp;value=---%0Auid%3A%20Google.GenAI.Types.CreateTuningJobConfig%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -85,7 +85,7 @@
 
 
   <h1 id="Google_GenAI_Types_CreateTuningJobConfig" data-uid="Google.GenAI.Types.CreateTuningJobConfig" class="text-break">
-Class CreateTuningJobConfig  <a class="header-action link-secondary" title="View source" href="https://github.com/googleapis/dotnet-genai/blob/main/Google.GenAI/types/CreateTuningJobConfig.cs/#L29"><i class="bi bi-code-slash"></i></a>
+Class CreateTuningJobConfig  <a class="header-action link-secondary" title="View source" href="https://github.com/jozkee/dotnet-genai/blob/main/Google.GenAI/types/CreateTuningJobConfig.cs/#L29"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -159,7 +159,7 @@ Class CreateTuningJobConfig  <a class="header-action link-secondary" title="View
 
   <h3 id="Google_GenAI_Types_CreateTuningJobConfig_AdapterSize" data-uid="Google.GenAI.Types.CreateTuningJobConfig.AdapterSize">
   AdapterSize
-  <a class="header-action link-secondary" title="View source" href="https://github.com/googleapis/dotnet-genai/blob/main/Google.GenAI/types/CreateTuningJobConfig.cs/#L124"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/jozkee/dotnet-genai/blob/main/Google.GenAI/types/CreateTuningJobConfig.cs/#L124"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Adapter size for tuning.</p>
@@ -193,7 +193,7 @@ public AdapterSize? AdapterSize { get; set; }</code></pre>
 
   <h3 id="Google_GenAI_Types_CreateTuningJobConfig_BaseTeacherModel" data-uid="Google.GenAI.Types.CreateTuningJobConfig.BaseTeacherModel">
   BaseTeacherModel
-  <a class="header-action link-secondary" title="View source" href="https://github.com/googleapis/dotnet-genai/blob/main/Google.GenAI/types/CreateTuningJobConfig.cs/#L199"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/jozkee/dotnet-genai/blob/main/Google.GenAI/types/CreateTuningJobConfig.cs/#L201"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The base teacher model that is being distilled. Distillation only.</p>
@@ -227,10 +227,11 @@ public string? BaseTeacherModel { get; set; }</code></pre>
 
   <h3 id="Google_GenAI_Types_CreateTuningJobConfig_BatchSize" data-uid="Google.GenAI.Types.CreateTuningJobConfig.BatchSize">
   BatchSize
-  <a class="header-action link-secondary" title="View source" href="https://github.com/googleapis/dotnet-genai/blob/main/Google.GenAI/types/CreateTuningJobConfig.cs/#L154"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/jozkee/dotnet-genai/blob/main/Google.GenAI/types/CreateTuningJobConfig.cs/#L156"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The batch size hyperparameter for tuning. This is only supported for OSS models in Vertex.</p>
+  <div class="markdown level1 summary"><p>The batch size hyperparameter for tuning. This is only supported for OSS models in Gemini
+Enterprise Agent Platform.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -261,7 +262,7 @@ public int? BatchSize { get; set; }</code></pre>
 
   <h3 id="Google_GenAI_Types_CreateTuningJobConfig_Beta" data-uid="Google.GenAI.Types.CreateTuningJobConfig.Beta">
   Beta
-  <a class="header-action link-secondary" title="View source" href="https://github.com/googleapis/dotnet-genai/blob/main/Google.GenAI/types/CreateTuningJobConfig.cs/#L189"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/jozkee/dotnet-genai/blob/main/Google.GenAI/types/CreateTuningJobConfig.cs/#L191"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Weight for KL Divergence regularization, Preference Optimization tuning only.</p>
@@ -291,14 +292,83 @@ public double? Beta { get; set; }</code></pre>
 
 
 
+  <a id="Google_GenAI_Types_CreateTuningJobConfig_CheckpointInterval_" data-uid="Google.GenAI.Types.CreateTuningJobConfig.CheckpointInterval*"></a>
+
+  <h3 id="Google_GenAI_Types_CreateTuningJobConfig_CheckpointInterval" data-uid="Google.GenAI.Types.CreateTuningJobConfig.CheckpointInterval">
+  CheckpointInterval
+  <a class="header-action link-secondary" title="View source" href="https://github.com/jozkee/dotnet-genai/blob/main/Google.GenAI/types/CreateTuningJobConfig.cs/#L294"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>How often at steps to save checkpoints during training. Reinforcement tuning only.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;checkpointInterval&quot;)]
+[JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)]
+public int? CheckpointInterval { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Google_GenAI_Types_CreateTuningJobConfig_CompositeRewardConfig_" data-uid="Google.GenAI.Types.CreateTuningJobConfig.CompositeRewardConfig*"></a>
+
+  <h3 id="Google_GenAI_Types_CreateTuningJobConfig_CompositeRewardConfig" data-uid="Google.GenAI.Types.CreateTuningJobConfig.CompositeRewardConfig">
+  CompositeRewardConfig
+  <a class="header-action link-secondary" title="View source" href="https://github.com/jozkee/dotnet-genai/blob/main/Google.GenAI/types/CreateTuningJobConfig.cs/#L263"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Composite reward function configuration for reinforcement tuning. Reinforcement tuning only.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;compositeRewardConfig&quot;)]
+[JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)]
+public CompositeReinforcementTuningRewardConfig? CompositeRewardConfig { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Google.GenAI.Types.CompositeReinforcementTuningRewardConfig.html">CompositeReinforcementTuningRewardConfig</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="Google_GenAI_Types_CreateTuningJobConfig_CustomBaseModel_" data-uid="Google.GenAI.Types.CreateTuningJobConfig.CustomBaseModel*"></a>
 
   <h3 id="Google_GenAI_Types_CreateTuningJobConfig_CustomBaseModel" data-uid="Google.GenAI.Types.CreateTuningJobConfig.CustomBaseModel">
   CustomBaseModel
-  <a class="header-action link-secondary" title="View source" href="https://github.com/googleapis/dotnet-genai/blob/main/Google.GenAI/types/CreateTuningJobConfig.cs/#L144"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/jozkee/dotnet-genai/blob/main/Google.GenAI/types/CreateTuningJobConfig.cs/#L145"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Custom base model for tuning. This is only supported for OSS models in Vertex.</p>
+  <div class="markdown level1 summary"><p>Custom base model for tuning. This is only supported for OSS models in Gemini Enterprise
+Agent Platform.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -329,7 +399,7 @@ public string? CustomBaseModel { get; set; }</code></pre>
 
   <h3 id="Google_GenAI_Types_CreateTuningJobConfig_Description" data-uid="Google.GenAI.Types.CreateTuningJobConfig.Description">
   Description
-  <a class="header-action link-secondary" title="View source" href="https://github.com/googleapis/dotnet-genai/blob/main/Google.GenAI/types/CreateTuningJobConfig.cs/#L72"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/jozkee/dotnet-genai/blob/main/Google.GenAI/types/CreateTuningJobConfig.cs/#L72"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The description of the TuningJob</p>
@@ -363,7 +433,7 @@ public string? Description { get; set; }</code></pre>
 
   <h3 id="Google_GenAI_Types_CreateTuningJobConfig_EncryptionSpec" data-uid="Google.GenAI.Types.CreateTuningJobConfig.EncryptionSpec">
   EncryptionSpec
-  <a class="header-action link-secondary" title="View source" href="https://github.com/googleapis/dotnet-genai/blob/main/Google.GenAI/types/CreateTuningJobConfig.cs/#L241"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/jozkee/dotnet-genai/blob/main/Google.GenAI/types/CreateTuningJobConfig.cs/#L243"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The encryption spec of the tuning job. Customer-managed encryption key options for a
@@ -399,7 +469,7 @@ public EncryptionSpec? EncryptionSpec { get; set; }</code></pre>
 
   <h3 id="Google_GenAI_Types_CreateTuningJobConfig_EpochCount" data-uid="Google.GenAI.Types.CreateTuningJobConfig.EpochCount">
   EpochCount
-  <a class="header-action link-secondary" title="View source" href="https://github.com/googleapis/dotnet-genai/blob/main/Google.GenAI/types/CreateTuningJobConfig.cs/#L82"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/jozkee/dotnet-genai/blob/main/Google.GenAI/types/CreateTuningJobConfig.cs/#L82"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Number of complete passes the model makes over the entire training dataset during training.</p>
@@ -429,11 +499,45 @@ public int? EpochCount { get; set; }</code></pre>
 
 
 
+  <a id="Google_GenAI_Types_CreateTuningJobConfig_EvaluateInterval_" data-uid="Google.GenAI.Types.CreateTuningJobConfig.EvaluateInterval*"></a>
+
+  <h3 id="Google_GenAI_Types_CreateTuningJobConfig_EvaluateInterval" data-uid="Google.GenAI.Types.CreateTuningJobConfig.EvaluateInterval">
+  EvaluateInterval
+  <a class="header-action link-secondary" title="View source" href="https://github.com/jozkee/dotnet-genai/blob/main/Google.GenAI/types/CreateTuningJobConfig.cs/#L284"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>How often at steps to evaluate the tuning job during training. Reinforcement tuning only.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;evaluateInterval&quot;)]
+[JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)]
+public int? EvaluateInterval { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="Google_GenAI_Types_CreateTuningJobConfig_ExportLastCheckpointOnly_" data-uid="Google.GenAI.Types.CreateTuningJobConfig.ExportLastCheckpointOnly*"></a>
 
   <h3 id="Google_GenAI_Types_CreateTuningJobConfig_ExportLastCheckpointOnly" data-uid="Google.GenAI.Types.CreateTuningJobConfig.ExportLastCheckpointOnly">
   ExportLastCheckpointOnly
-  <a class="header-action link-secondary" title="View source" href="https://github.com/googleapis/dotnet-genai/blob/main/Google.GenAI/types/CreateTuningJobConfig.cs/#L104"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/jozkee/dotnet-genai/blob/main/Google.GenAI/types/CreateTuningJobConfig.cs/#L104"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>If set to true, disable intermediate checkpoints and only the last checkpoint will be
@@ -468,7 +572,7 @@ public bool? ExportLastCheckpointOnly { get; set; }</code></pre>
 
   <h3 id="Google_GenAI_Types_CreateTuningJobConfig_HttpOptions" data-uid="Google.GenAI.Types.CreateTuningJobConfig.HttpOptions">
   HttpOptions
-  <a class="header-action link-secondary" title="View source" href="https://github.com/googleapis/dotnet-genai/blob/main/Google.GenAI/types/CreateTuningJobConfig.cs/#L33"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/jozkee/dotnet-genai/blob/main/Google.GenAI/types/CreateTuningJobConfig.cs/#L33"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Used to override HTTP request options.</p>
@@ -502,7 +606,7 @@ public HttpOptions? HttpOptions { get; set; }</code></pre>
 
   <h3 id="Google_GenAI_Types_CreateTuningJobConfig_Labels" data-uid="Google.GenAI.Types.CreateTuningJobConfig.Labels">
   Labels
-  <a class="header-action link-secondary" title="View source" href="https://github.com/googleapis/dotnet-genai/blob/main/Google.GenAI/types/CreateTuningJobConfig.cs/#L179"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/jozkee/dotnet-genai/blob/main/Google.GenAI/types/CreateTuningJobConfig.cs/#L181"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Optional. The labels with user-defined metadata to organize TuningJob and generated
@@ -540,7 +644,7 @@ public Dictionary&lt;string, string&gt;? Labels { get; set; }</code></pre>
 
   <h3 id="Google_GenAI_Types_CreateTuningJobConfig_LearningRate" data-uid="Google.GenAI.Types.CreateTuningJobConfig.LearningRate">
   LearningRate
-  <a class="header-action link-secondary" title="View source" href="https://github.com/googleapis/dotnet-genai/blob/main/Google.GenAI/types/CreateTuningJobConfig.cs/#L165"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/jozkee/dotnet-genai/blob/main/Google.GenAI/types/CreateTuningJobConfig.cs/#L167"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The learning rate for tuning. OSS models only. Mutually exclusive with
@@ -575,7 +679,7 @@ public double? LearningRate { get; set; }</code></pre>
 
   <h3 id="Google_GenAI_Types_CreateTuningJobConfig_LearningRateMultiplier" data-uid="Google.GenAI.Types.CreateTuningJobConfig.LearningRateMultiplier">
   LearningRateMultiplier
-  <a class="header-action link-secondary" title="View source" href="https://github.com/googleapis/dotnet-genai/blob/main/Google.GenAI/types/CreateTuningJobConfig.cs/#L93"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/jozkee/dotnet-genai/blob/main/Google.GenAI/types/CreateTuningJobConfig.cs/#L93"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Multiplier for adjusting the default learning rate. 1P models only. Mutually exclusive with
@@ -606,15 +710,49 @@ public double? LearningRateMultiplier { get; set; }</code></pre>
 
 
 
+  <a id="Google_GenAI_Types_CreateTuningJobConfig_MaxOutputTokens_" data-uid="Google.GenAI.Types.CreateTuningJobConfig.MaxOutputTokens*"></a>
+
+  <h3 id="Google_GenAI_Types_CreateTuningJobConfig_MaxOutputTokens" data-uid="Google.GenAI.Types.CreateTuningJobConfig.MaxOutputTokens">
+  MaxOutputTokens
+  <a class="header-action link-secondary" title="View source" href="https://github.com/jozkee/dotnet-genai/blob/main/Google.GenAI/types/CreateTuningJobConfig.cs/#L304"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The maximum number of tokens to generate per prompt. Reinforcement tuning only.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;maxOutputTokens&quot;)]
+[JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)]
+public int? MaxOutputTokens { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="Google_GenAI_Types_CreateTuningJobConfig_Method_" data-uid="Google.GenAI.Types.CreateTuningJobConfig.Method*"></a>
 
   <h3 id="Google_GenAI_Types_CreateTuningJobConfig_Method" data-uid="Google.GenAI.Types.CreateTuningJobConfig.Method">
   Method
-  <a class="header-action link-secondary" title="View source" href="https://github.com/googleapis/dotnet-genai/blob/main/Google.GenAI/types/CreateTuningJobConfig.cs/#L41"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/jozkee/dotnet-genai/blob/main/Google.GenAI/types/CreateTuningJobConfig.cs/#L41"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The method to use for tuning (SUPERVISED_FINE_TUNING or PREFERENCE_TUNING or DISTILLATION).
-If not set, the default method (SFT) will be used.</p>
+  <div class="markdown level1 summary"><p>The method to use for tuning (SUPERVISED_FINE_TUNING or PREFERENCE_TUNING or DISTILLATION or
+REINFORCEMENT_TUNING). If not set, the default method (SFT) will be used.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -645,7 +783,7 @@ public TuningMethod? Method { get; set; }</code></pre>
 
   <h3 id="Google_GenAI_Types_CreateTuningJobConfig_OutputUri" data-uid="Google.GenAI.Types.CreateTuningJobConfig.OutputUri">
   OutputUri
-  <a class="header-action link-secondary" title="View source" href="https://github.com/googleapis/dotnet-genai/blob/main/Google.GenAI/types/CreateTuningJobConfig.cs/#L229"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/jozkee/dotnet-genai/blob/main/Google.GenAI/types/CreateTuningJobConfig.cs/#L231"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The Google Cloud Storage location where the tuning job outputs are written.</p>
@@ -679,7 +817,7 @@ public string? OutputUri { get; set; }</code></pre>
 
   <h3 id="Google_GenAI_Types_CreateTuningJobConfig_PreTunedModelCheckpointId" data-uid="Google.GenAI.Types.CreateTuningJobConfig.PreTunedModelCheckpointId">
   PreTunedModelCheckpointId
-  <a class="header-action link-secondary" title="View source" href="https://github.com/googleapis/dotnet-genai/blob/main/Google.GenAI/types/CreateTuningJobConfig.cs/#L114"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/jozkee/dotnet-genai/blob/main/Google.GenAI/types/CreateTuningJobConfig.cs/#L114"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The optional checkpoint id of the pre-tuned model to use for tuning, if applicable.</p>
@@ -709,11 +847,80 @@ public string? PreTunedModelCheckpointId { get; set; }</code></pre>
 
 
 
+  <a id="Google_GenAI_Types_CreateTuningJobConfig_RewardConfig_" data-uid="Google.GenAI.Types.CreateTuningJobConfig.RewardConfig*"></a>
+
+  <h3 id="Google_GenAI_Types_CreateTuningJobConfig_RewardConfig" data-uid="Google.GenAI.Types.CreateTuningJobConfig.RewardConfig">
+  RewardConfig
+  <a class="header-action link-secondary" title="View source" href="https://github.com/jozkee/dotnet-genai/blob/main/Google.GenAI/types/CreateTuningJobConfig.cs/#L253"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Reward function configuration for reinforcement tuning. Reinforcement tuning only.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;rewardConfig&quot;)]
+[JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)]
+public SingleReinforcementTuningRewardConfig? RewardConfig { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Google.GenAI.Types.SingleReinforcementTuningRewardConfig.html">SingleReinforcementTuningRewardConfig</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Google_GenAI_Types_CreateTuningJobConfig_SamplesPerPrompt_" data-uid="Google.GenAI.Types.CreateTuningJobConfig.SamplesPerPrompt*"></a>
+
+  <h3 id="Google_GenAI_Types_CreateTuningJobConfig_SamplesPerPrompt" data-uid="Google.GenAI.Types.CreateTuningJobConfig.SamplesPerPrompt">
+  SamplesPerPrompt
+  <a class="header-action link-secondary" title="View source" href="https://github.com/jozkee/dotnet-genai/blob/main/Google.GenAI/types/CreateTuningJobConfig.cs/#L274"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Number of different responses to generate per prompt during tuning. Reinforcement tuning
+only.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;samplesPerPrompt&quot;)]
+[JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)]
+public int? SamplesPerPrompt { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="Google_GenAI_Types_CreateTuningJobConfig_SftLossWeightMultiplier_" data-uid="Google.GenAI.Types.CreateTuningJobConfig.SftLossWeightMultiplier*"></a>
 
   <h3 id="Google_GenAI_Types_CreateTuningJobConfig_SftLossWeightMultiplier" data-uid="Google.GenAI.Types.CreateTuningJobConfig.SftLossWeightMultiplier">
   SftLossWeightMultiplier
-  <a class="header-action link-secondary" title="View source" href="https://github.com/googleapis/dotnet-genai/blob/main/Google.GenAI/types/CreateTuningJobConfig.cs/#L219"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/jozkee/dotnet-genai/blob/main/Google.GenAI/types/CreateTuningJobConfig.cs/#L221"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Multiplier for adjusting the weight of the SFT loss. Distillation only.</p>
@@ -747,7 +954,7 @@ public double? SftLossWeightMultiplier { get; set; }</code></pre>
 
   <h3 id="Google_GenAI_Types_CreateTuningJobConfig_TunedModelDisplayName" data-uid="Google.GenAI.Types.CreateTuningJobConfig.TunedModelDisplayName">
   TunedModelDisplayName
-  <a class="header-action link-secondary" title="View source" href="https://github.com/googleapis/dotnet-genai/blob/main/Google.GenAI/types/CreateTuningJobConfig.cs/#L62"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/jozkee/dotnet-genai/blob/main/Google.GenAI/types/CreateTuningJobConfig.cs/#L62"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The display name of the tuned Model. The name can be up to 128 characters long and can
@@ -782,7 +989,7 @@ public string? TunedModelDisplayName { get; set; }</code></pre>
 
   <h3 id="Google_GenAI_Types_CreateTuningJobConfig_TunedTeacherModelSource" data-uid="Google.GenAI.Types.CreateTuningJobConfig.TunedTeacherModelSource">
   TunedTeacherModelSource
-  <a class="header-action link-secondary" title="View source" href="https://github.com/googleapis/dotnet-genai/blob/main/Google.GenAI/types/CreateTuningJobConfig.cs/#L209"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/jozkee/dotnet-genai/blob/main/Google.GenAI/types/CreateTuningJobConfig.cs/#L211"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The resource name of the Tuned teacher model. Distillation only.</p>
@@ -816,7 +1023,7 @@ public string? TunedTeacherModelSource { get; set; }</code></pre>
 
   <h3 id="Google_GenAI_Types_CreateTuningJobConfig_TuningMode" data-uid="Google.GenAI.Types.CreateTuningJobConfig.TuningMode">
   TuningMode
-  <a class="header-action link-secondary" title="View source" href="https://github.com/googleapis/dotnet-genai/blob/main/Google.GenAI/types/CreateTuningJobConfig.cs/#L134"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/jozkee/dotnet-genai/blob/main/Google.GenAI/types/CreateTuningJobConfig.cs/#L134"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Tuning mode for tuning.</p>
@@ -850,7 +1057,7 @@ public TuningMode? TuningMode { get; set; }</code></pre>
 
   <h3 id="Google_GenAI_Types_CreateTuningJobConfig_ValidationDataset" data-uid="Google.GenAI.Types.CreateTuningJobConfig.ValidationDataset">
   ValidationDataset
-  <a class="header-action link-secondary" title="View source" href="https://github.com/googleapis/dotnet-genai/blob/main/Google.GenAI/types/CreateTuningJobConfig.cs/#L51"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/jozkee/dotnet-genai/blob/main/Google.GenAI/types/CreateTuningJobConfig.cs/#L51"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Validation dataset for tuning. The dataset must be formatted as a JSONL file.</p>
@@ -888,7 +1095,7 @@ public TuningValidationDataset? ValidationDataset { get; set; }</code></pre>
 
   <h3 id="Google_GenAI_Types_CreateTuningJobConfig_FromJson_System_String_System_Text_Json_JsonSerializerOptions_" data-uid="Google.GenAI.Types.CreateTuningJobConfig.FromJson(System.String,System.Text.Json.JsonSerializerOptions)">
   FromJson(string, JsonSerializerOptions?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/googleapis/dotnet-genai/blob/main/Google.GenAI/types/CreateTuningJobConfig.cs/#L255"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/jozkee/dotnet-genai/blob/main/Google.GenAI/types/CreateTuningJobConfig.cs/#L318"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Deserializes a JSON string to a CreateTuningJobConfig object.</p>
@@ -931,7 +1138,7 @@ fails.</p>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/googleapis/dotnet-genai/blob/main/Google.GenAI/types/CreateTuningJobConfig.cs/#L29" class="edit-link">Edit this page</a>
+          <a href="https://github.com/jozkee/dotnet-genai/blob/main/Google.GenAI/types/CreateTuningJobConfig.cs/#L29" class="edit-link">Edit this page</a>
         </div>
 
 

@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Class ToolConfig | Google GenAI .NET SDK ">
       
-      <meta name="description" content="Tool config.  This config is shared for all tools provided in the request.">
+      <meta name="description" content="Tool config. This config is shared for all tools provided in the request.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -16,7 +16,7 @@
       
       
       
-      <meta name="docfx:docurl" content="https://github.com/googleapis/dotnet-genai/new/main/apiSpec/new?filename=Google_GenAI_Types_ToolConfig.md&amp;value=---%0Auid%3A%20Google.GenAI.Types.ToolConfig%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/jozkee/dotnet-genai/new/main/apiSpec/new?filename=Google_GenAI_Types_ToolConfig.md&amp;value=---%0Auid%3A%20Google.GenAI.Types.ToolConfig%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -85,7 +85,7 @@
 
 
   <h1 id="Google_GenAI_Types_ToolConfig" data-uid="Google.GenAI.Types.ToolConfig" class="text-break">
-Class ToolConfig  <a class="header-action link-secondary" title="View source" href="https://github.com/googleapis/dotnet-genai/blob/main/Google.GenAI/types/ToolConfig.cs/#L29"><i class="bi bi-code-slash"></i></a>
+Class ToolConfig  <a class="header-action link-secondary" title="View source" href="https://github.com/jozkee/dotnet-genai/blob/main/Google.GenAI/types/ToolConfig.cs/#L29"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -93,7 +93,7 @@ Class ToolConfig  <a class="header-action link-secondary" title="View source" hr
   <dl><dt>Assembly</dt><dd>Google.GenAI.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>Tool config.  This config is shared for all tools provided in the request.</p>
+  <div class="markdown summary"><p>Tool config. This config is shared for all tools provided in the request.</p>
 </div>
   <div class="markdown conceptual"></div>
 
@@ -159,7 +159,7 @@ Class ToolConfig  <a class="header-action link-secondary" title="View source" hr
 
   <h3 id="Google_GenAI_Types_ToolConfig_FunctionCallingConfig" data-uid="Google.GenAI.Types.ToolConfig.FunctionCallingConfig">
   FunctionCallingConfig
-  <a class="header-action link-secondary" title="View source" href="https://github.com/googleapis/dotnet-genai/blob/main/Google.GenAI/types/ToolConfig.cs/#L40"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/jozkee/dotnet-genai/blob/main/Google.GenAI/types/ToolConfig.cs/#L40"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Optional. Function calling config.</p>
@@ -193,11 +193,12 @@ public FunctionCallingConfig? FunctionCallingConfig { get; set; }</code></pre>
 
   <h3 id="Google_GenAI_Types_ToolConfig_IncludeServerSideToolInvocations" data-uid="Google.GenAI.Types.ToolConfig.IncludeServerSideToolInvocations">
   IncludeServerSideToolInvocations
-  <a class="header-action link-secondary" title="View source" href="https://github.com/googleapis/dotnet-genai/blob/main/Google.GenAI/types/ToolConfig.cs/#L51"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/jozkee/dotnet-genai/blob/main/Google.GenAI/types/ToolConfig.cs/#L52"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>If true, the API response will include the server-side tool calls and responses within the
-<code>Content</code> message. This allows clients to observe the server's tool invocations.</p>
+  <div class="markdown level1 summary"><p>Optional. If true, the API response will include the server-side tool calls and responses
+within the <code>Content</code> message. This allows clients to observe the server's tool interactions.
+This field is not supported in Vertex AI.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -228,7 +229,7 @@ public bool? IncludeServerSideToolInvocations { get; set; }</code></pre>
 
   <h3 id="Google_GenAI_Types_ToolConfig_RetrievalConfig" data-uid="Google.GenAI.Types.ToolConfig.RetrievalConfig">
   RetrievalConfig
-  <a class="header-action link-secondary" title="View source" href="https://github.com/googleapis/dotnet-genai/blob/main/Google.GenAI/types/ToolConfig.cs/#L33"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/jozkee/dotnet-genai/blob/main/Google.GenAI/types/ToolConfig.cs/#L33"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Optional. Retrieval config.</p>
@@ -266,7 +267,7 @@ public RetrievalConfig? RetrievalConfig { get; set; }</code></pre>
 
   <h3 id="Google_GenAI_Types_ToolConfig_FromJson_System_String_System_Text_Json_JsonSerializerOptions_" data-uid="Google.GenAI.Types.ToolConfig.FromJson(System.String,System.Text.Json.JsonSerializerOptions)">
   FromJson(string, JsonSerializerOptions?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/googleapis/dotnet-genai/blob/main/Google.GenAI/types/ToolConfig.cs/#L64"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/jozkee/dotnet-genai/blob/main/Google.GenAI/types/ToolConfig.cs/#L65"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Deserializes a JSON string to a ToolConfig object.</p>
@@ -308,7 +309,7 @@ public RetrievalConfig? RetrievalConfig { get; set; }</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/googleapis/dotnet-genai/blob/main/Google.GenAI/types/ToolConfig.cs/#L29" class="edit-link">Edit this page</a>
+          <a href="https://github.com/jozkee/dotnet-genai/blob/main/Google.GenAI/types/ToolConfig.cs/#L29" class="edit-link">Edit this page</a>
         </div>
 
 

@@ -16,7 +16,7 @@
       
       
       
-      <meta name="docfx:docurl" content="https://github.com/googleapis/dotnet-genai/new/main/apiSpec/new?filename=Google_GenAI_Types_Outcome.md&amp;value=---%0Auid%3A%20Google.GenAI.Types.Outcome%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/jozkee/dotnet-genai/new/main/apiSpec/new?filename=Google_GenAI_Types_Outcome.md&amp;value=---%0Auid%3A%20Google.GenAI.Types.Outcome%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -85,7 +85,7 @@
 
 
   <h1 id="Google_GenAI_Types_Outcome" data-uid="Google.GenAI.Types.Outcome" class="text-break">
-Struct Outcome  <a class="header-action link-secondary" title="View source" href="https://github.com/googleapis/dotnet-genai/blob/main/Google.GenAI/types/Outcome.cs/#L28"><i class="bi bi-code-slash"></i></a>
+Struct Outcome  <a class="header-action link-secondary" title="View source" href="https://github.com/jozkee/dotnet-genai/blob/main/Google.GenAI/types/Outcome.cs/#L28"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -144,7 +144,7 @@ public readonly record struct Outcome : IEquatable&lt;Outcome&gt;</code></pre>
 
   <h3 id="Google_GenAI_Types_Outcome_AllValues" data-uid="Google.GenAI.Types.Outcome.AllValues">
   AllValues
-  <a class="header-action link-secondary" title="View source" href="https://github.com/googleapis/dotnet-genai/blob/main/Google.GenAI/types/Outcome.cs/#L57"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/jozkee/dotnet-genai/blob/main/Google.GenAI/types/Outcome.cs/#L57"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -175,11 +175,11 @@ public readonly record struct Outcome : IEquatable&lt;Outcome&gt;</code></pre>
 
   <h3 id="Google_GenAI_Types_Outcome_OutcomeDeadlineExceeded" data-uid="Google.GenAI.Types.Outcome.OutcomeDeadlineExceeded">
   OutcomeDeadlineExceeded
-  <a class="header-action link-secondary" title="View source" href="https://github.com/googleapis/dotnet-genai/blob/main/Google.GenAI/types/Outcome.cs/#L55"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/jozkee/dotnet-genai/blob/main/Google.GenAI/types/Outcome.cs/#L55"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Code execution ran for too long, and was cancelled. There may or may not be a partial output
-present.</p>
+  <div class="markdown level1 summary"><p>Code execution ran for too long, and was cancelled. There may or may not be a partial
+<code>output</code> present.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -208,10 +208,10 @@ present.</p>
 
   <h3 id="Google_GenAI_Types_Outcome_OutcomeFailed" data-uid="Google.GenAI.Types.Outcome.OutcomeFailed">
   OutcomeFailed
-  <a class="header-action link-secondary" title="View source" href="https://github.com/googleapis/dotnet-genai/blob/main/Google.GenAI/types/Outcome.cs/#L49"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/jozkee/dotnet-genai/blob/main/Google.GenAI/types/Outcome.cs/#L49"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Code execution finished but with a failure. <code>stderr</code> should contain the reason.</p>
+  <div class="markdown level1 summary"><p>Code execution failed. <code>output</code> contains the stderr and stdout, if any.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -240,10 +240,10 @@ present.</p>
 
   <h3 id="Google_GenAI_Types_Outcome_OutcomeOk" data-uid="Google.GenAI.Types.Outcome.OutcomeOk">
   OutcomeOk
-  <a class="header-action link-secondary" title="View source" href="https://github.com/googleapis/dotnet-genai/blob/main/Google.GenAI/types/Outcome.cs/#L44"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/jozkee/dotnet-genai/blob/main/Google.GenAI/types/Outcome.cs/#L44"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Code execution completed successfully.</p>
+  <div class="markdown level1 summary"><p>Code execution completed successfully. <code>output</code> contains the stdout, if any.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -272,7 +272,7 @@ present.</p>
 
   <h3 id="Google_GenAI_Types_Outcome_OutcomeUnspecified" data-uid="Google.GenAI.Types.Outcome.OutcomeUnspecified">
   OutcomeUnspecified
-  <a class="header-action link-secondary" title="View source" href="https://github.com/googleapis/dotnet-genai/blob/main/Google.GenAI/types/Outcome.cs/#L39"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/jozkee/dotnet-genai/blob/main/Google.GenAI/types/Outcome.cs/#L39"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Unspecified status. This value should not be used.</p>
@@ -304,7 +304,7 @@ present.</p>
 
   <h3 id="Google_GenAI_Types_Outcome_Value" data-uid="Google.GenAI.Types.Outcome.Value">
   Value
-  <a class="header-action link-secondary" title="View source" href="https://github.com/googleapis/dotnet-genai/blob/main/Google.GenAI/types/Outcome.cs/#L30"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/jozkee/dotnet-genai/blob/main/Google.GenAI/types/Outcome.cs/#L30"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -339,7 +339,7 @@ present.</p>
 
   <h3 id="Google_GenAI_Types_Outcome_Equals_Google_GenAI_Types_Outcome_" data-uid="Google.GenAI.Types.Outcome.Equals(Google.GenAI.Types.Outcome)">
   Equals(Outcome)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/googleapis/dotnet-genai/blob/main/Google.GenAI/types/Outcome.cs/#L79"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/jozkee/dotnet-genai/blob/main/Google.GenAI/types/Outcome.cs/#L79"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -375,7 +375,7 @@ present.</p>
 
   <h3 id="Google_GenAI_Types_Outcome_FromString_System_String_" data-uid="Google.GenAI.Types.Outcome.FromString(System.String)">
   FromString(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/googleapis/dotnet-genai/blob/main/Google.GenAI/types/Outcome.cs/#L61"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/jozkee/dotnet-genai/blob/main/Google.GenAI/types/Outcome.cs/#L61"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -411,7 +411,7 @@ present.</p>
 
   <h3 id="Google_GenAI_Types_Outcome_GetHashCode" data-uid="Google.GenAI.Types.Outcome.GetHashCode">
   GetHashCode()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/googleapis/dotnet-genai/blob/main/Google.GenAI/types/Outcome.cs/#L81"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/jozkee/dotnet-genai/blob/main/Google.GenAI/types/Outcome.cs/#L81"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -442,7 +442,7 @@ present.</p>
 
   <h3 id="Google_GenAI_Types_Outcome_ToString" data-uid="Google.GenAI.Types.Outcome.ToString">
   ToString()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/googleapis/dotnet-genai/blob/main/Google.GenAI/types/Outcome.cs/#L75"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/jozkee/dotnet-genai/blob/main/Google.GenAI/types/Outcome.cs/#L75"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -477,7 +477,7 @@ present.</p>
 
   <h3 id="Google_GenAI_Types_Outcome_op_Implicit_System_String__Google_GenAI_Types_Outcome" data-uid="Google.GenAI.Types.Outcome.op_Implicit(System.String)~Google.GenAI.Types.Outcome">
   implicit operator Outcome(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/googleapis/dotnet-genai/blob/main/Google.GenAI/types/Outcome.cs/#L77"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/jozkee/dotnet-genai/blob/main/Google.GenAI/types/Outcome.cs/#L77"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -513,7 +513,7 @@ present.</p>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/googleapis/dotnet-genai/blob/main/Google.GenAI/types/Outcome.cs/#L28" class="edit-link">Edit this page</a>
+          <a href="https://github.com/jozkee/dotnet-genai/blob/main/Google.GenAI/types/Outcome.cs/#L28" class="edit-link">Edit this page</a>
         </div>
 
 
